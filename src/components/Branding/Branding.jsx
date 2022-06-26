@@ -1,15 +1,18 @@
 import logo from 'assets/logo.svg'
-import Styled from './Branding.styles'
+import { LogoStyled } from './Branding.styles'
+import PropTypes from 'prop-types'
 
-const Branding = () => {
+const Branding = ({ navigate }) => {
   return (
-    <>
-      <Styled.Logo>
-        <img data-testid="logo" src={logo} className="logo" alt="logo" />
-      </Styled.Logo>
-      <Styled.Title data-testid="name">Ecommerce</Styled.Title>
-    </>
+    <LogoStyled data-testid="name" onClick={() => navigate('home')}>
+      <img data-testid="logo" src={logo} alt="logo" />
+    </LogoStyled>
   )
 }
  
+Branding.propTypes = {
+  open: PropTypes.bool,
+  navigate: PropTypes.func
+}
+
 export default Branding

@@ -1,20 +1,17 @@
 import styled from 'styled-components'
 
-const Footer = styled.footer`
-  grid-area: footer;
-  display: flex;
+const FooterContainer = styled.footer`
   align-items: center;
-  justify-content: flex-end;
-  border-top: 1px solid #ccc;
-  padding: 2rem;
+  background-color: ${({ theme }) => theme.footer};
+  color: ${({ theme }) => theme.borderColor};
+  display: flex;
+  grid-area: footer;
+  justify-content: center;
+  padding: 0.5rem;
 
   p {
     margin: 0;
   }
 `
 
-const Styled = {
-  Footer
-}
-
-export default Styled
+export { FooterContainer }

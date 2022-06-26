@@ -1,19 +1,14 @@
 import styled from 'styled-components'
 
-const Logo = styled.div`
-  img {
-    display: block;
-    width: 50px;
-  }
-`
-const Title = styled.h1`
+const LogoStyled = styled.h1`
+  cursor: pointer;
+  font-size: 3.8rem;
   line-height: 1;
   margin: 0;
+
+  img {
+    height: 38px;
+  }
 `
 
-const Styled = {
-  Logo,
-  Title
-}
-
-export default Styled
+export { LogoStyled }

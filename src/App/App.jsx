@@ -1,13 +1,24 @@
-import React from 'react'
+import React, { useState } from 'react'
 import MainLayout from 'layout/MainLayout/MainLayout'
-import { Home } from 'pages'
+import { Home, Products } from 'pages'
 
-function App() {
+const App = () => {
+  const [activePage, setActivePage] = useState( 'home' )
+
+  const navigate = ( page ) => {
+    setActivePage( page )
+  }
+  
+  const isHomePage = activePage === 'home'
+
   return (
-    <MainLayout>
-      <Home />
+    <MainLayout navigate={( page ) => navigate( page )}>
+      {isHomePage
+        ? <Home navigate={( page ) => navigate( page )} />
+        : <Products />
+      }
     </MainLayout>
   )
 }
 
-export default App
+export default App 

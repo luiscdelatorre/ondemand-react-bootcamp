@@ -1,13 +1,14 @@
-import Styled from './ShoppingCart.styles'
-import React from 'react'
+import { Counter, ShoppingCartButton } from './ShoppingCart.styles'
 import { IoCartOutline } from 'react-icons/io5'
 
 const ShoppingCart = () => {
-  
+  const counter = 0
+
   return (
-    <Styled.ShoppingCart>
+    <ShoppingCartButton>
       <IoCartOutline />
-    </Styled.ShoppingCart>
+      <Counter>{ counter }</Counter>
+    </ShoppingCartButton>
   )
 }
 

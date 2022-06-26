@@ -1,23 +1,32 @@
 import styled from 'styled-components'
 
-const Search = styled.div`
-  display: flex;
+const SearchStyled = styled.div`
   align-items: center;
-  justify-content: center;
+  display: flex;
   font-size: 2rem;
+  justify-content: center;
   position: relative;
-  svg {
-    z-index: 1;
-    position: absolute;
-    left: 1.5rem;
+`
+
+const SearchButtonStyled = styled.button`
+  align-items: center;
+  background-color: transparent;
+  border-radius: 50%;
+  color: ${(props) => props.theme.text};
+  cursor: pointer;
+  display: flex;
+  font-size: 2.5rem;
+  height: 38px;
+  justify-content: center;
+  padding: 0;
+  width: 38px;
+
+  &:hover {
+    background-color: ${(props) => props.theme.borderColor};
   }
 `
 
-const SearchInput = styled.input`
-  position: relative;
-  padding: 0.5rem 0.5rem 0.5rem 5rem;
-  margin-right: 2rem;
-`
-
-const Styled = { Search, SearchInput }
-export default Styled
+export {
+  SearchStyled,
+  SearchButtonStyled
+}

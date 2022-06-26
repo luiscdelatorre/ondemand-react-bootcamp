@@ -1,19 +1,21 @@
 import React from 'react'
 import { IoSearchOutline } from 'react-icons/io5'
-import Styled from './Searchbar.styles'
+import { SearchStyled, SearchButtonStyled } from './Searchbar.styles'
 
 const Searchbar = () => {
   
   return (
-    <Styled.Search>
-      <IoSearchOutline />
-      <form>
-        <Styled.SearchInput
+    <SearchStyled>
+      <SearchButtonStyled>
+        <IoSearchOutline />
+      </SearchButtonStyled>
+      {/* <form>
+        <SearchInputStyled
           type="search"
           placeholder="Search"
         />
-      </form>
-    </Styled.Search>
+      </form> */}
+    </SearchStyled>
   )
 }
 

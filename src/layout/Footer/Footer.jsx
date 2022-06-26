@@ -1,10 +1,10 @@
-import Styled from './Footer.styles'
+import { FooterContainer } from './Footer.styles'
 
 const Footer = () => {
   return (
-      <Styled.Footer>
+      <FooterContainer>
         <p>Ecommerce created during Wizeline’s Academy React Bootcamp</p>
-      </Styled.Footer>
+      </FooterContainer>
   )
 }
  
