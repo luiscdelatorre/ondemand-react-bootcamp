@@ -10,9 +10,7 @@
     "react-dom": "^17.0.2",
     "react-icons": "^4.4.0",
     "react-scripts": "4.0.3",
-    "sass": "^1.52.3",
     "styled-components": "^5.3.5",
-    "swiper": "^8.2.4",
     "web-vitals": "^1.0.1"
   },
   "scripts": {
@@ -27,14 +25,16 @@
       "react-app/jest"
     ],
     "rules": {
-      "semi": [
-        "error",
-        "never"
-      ],
-      "quotes": [
-        "error",
-        "single"
-      ]
+      "semi": ["error", "never"],
+      "quotes": ["error", "single"],
+      "eol-last": ["error", "always"],
+      "space-before-blocks": ["error", "always"],
+      "object-curly-newline": ["error", {
+        "ObjectExpression": { "multiline": true, "minProperties": 1 },
+        "ObjectPattern": { "multiline": true },
+        "ImportDeclaration": { "multiline": true, "minProperties": 4 },
+        "ExportDeclaration": { "multiline": true, "minProperties": 2 }
+    }]
     }
   },
   "browserslist": {

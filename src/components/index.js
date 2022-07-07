@@ -1,19 +1,27 @@
-import FeaturedBanner from './FeaturedBanner/FeaturedBanner'
-import FeaturedProducts from './FeaturedProducts/FeaturedProducts'
-import ProductCategories from './ProductCategories/ProductCategories'
-import Slider from './Slider/Slider'
-import Grid from './Grid/Grid'
 import Branding from './Branding/Branding'
+import Card from './Card/Card'
+import FeaturedBanners from './FeaturedBanners/FeaturedBanners'
+import FeaturedCategories from './FeaturedCategories/FeaturedCategories'
+import FeaturedProducts from './FeaturedProducts/FeaturedProducts'
+import Loader from './Loader/Loader'
+import MainMenu from './MainMenu/MainMenu'
+import Pagination from './Pagination/Pagination'
+import ProductsList from './ProductsList/ProductsList'
 import Searchbar from './Searchbar/Searchbar'
 import ShoppingCart from './ShoppingCart/ShoppingCart'
+import Sidebar from './Sidebar/Sidebar'
 
 export { 
-  FeaturedBanner,
-  FeaturedProducts,
-  ProductCategories,
-  Slider,
-  Grid,
   Branding,
+  Card,
+  FeaturedBanners,
+  FeaturedCategories,
+  FeaturedProducts,
+  Loader,
+  MainMenu,
+  Pagination,
+  ProductsList,
   Searchbar,
-  ShoppingCart
+  ShoppingCart,
+  Sidebar,
 }

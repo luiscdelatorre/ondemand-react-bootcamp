@@ -1,4 +1,9 @@
-import theme from './theme'
-import screen from './screen'
+import { theme } from './theme'
+import device from './device'
+import colors from './colors'
 
-export { theme, screen }
+export {
+  theme,
+  device,
+  colors  
+}

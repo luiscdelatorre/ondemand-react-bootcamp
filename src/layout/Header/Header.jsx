@@ -1,17 +1,42 @@
-import { Branding, Searchbar, ShoppingCart } from 'components'
-import Styled from './Header.styles'
+import {
+  Branding,
+  Searchbar,
+  ShoppingCart,
+  MainMenu
+} from 'components'
+import { useState } from 'react'
+import {
+  HeaderContainer,
+  HeaderLeft,
+  HeaderRight,
+  HeaderCenter,
+  MenuHamburger,
+  MainHeader
+} from './Header.styles'
 
-const Header = () => {
+const Header = ({ navigate }) => {
+  const [showMenu, setShowMenu] = useState(false)
+
+  const toggleMenu = () => {
+    setShowMenu(!showMenu)
+  }
+
   return (
-      <Styled.Header>
-        <Styled.HeaderLeft>
-          <Branding />
-        </Styled.HeaderLeft>
-        <Styled.HeaderRight>
+    <MainHeader>
+      <HeaderContainer className='container'>
+        <HeaderLeft>
+          <MenuHamburger open={showMenu} onClick={toggleMenu}/>
+          <Branding navigate={(page) => navigate(page)}/>
+        </HeaderLeft>
+        <HeaderCenter open={showMenu}>
+          <MainMenu navigate={(page) => navigate(page)}/>
+        </HeaderCenter>
+        <HeaderRight>
           <Searchbar />
           <ShoppingCart />
-        </Styled.HeaderRight>
-      </Styled.Header>
+        </HeaderRight>
+      </HeaderContainer>
+    </MainHeader>
   )
 }
  

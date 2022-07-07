@@ -2,18 +2,18 @@ import React from 'react'
 import { ThemeProvider } from 'styled-components'
 import { Header, Footer } from 'layout'
 import { theme } from 'config'
-import Styled from './MainLayout.styles'
+import { ContainerStyled, MainContentStyled } from './MainLayout.styles'
 import GlobalStyles from 'Global.styles'
 
-const MainLayout = ({ children }) => {
+const MainLayout = ({ children, navigate }) => {
   return (
-    <ThemeProvider theme={theme.dark}>
+    <ThemeProvider theme={theme.light}>
       <GlobalStyles />
-      <Styled.Container>
-        <Header />
-        <Styled.MainContent>{children}</Styled.MainContent>
+      <ContainerStyled>
+        <Header navigate={(page) => navigate(page)}/>
+        <MainContentStyled>{children}</MainContentStyled>
         <Footer />
-      </Styled.Container>
+      </ContainerStyled>
     </ThemeProvider>
   )
 }
