@@ -1,12 +1,14 @@
 import { device } from 'config'
 import styled from 'styled-components'
+import { Link } from 'react-router-dom'
 
-const CardContainer = styled.div`
+const CardContainer = styled(Link)`
   border-radius: 2rem;
-  cursor: default;
+  color: ${({ theme }) => theme.text };
   display: flex;
   flex-direction: column;
   overflow: hidden;
+  text-decoration: none;
 
   &:hover {
     box-shadow: ${({ theme }) => theme.slideOverlay } 0px 5px 20px -10px;
@@ -66,6 +68,9 @@ const CardDescription = styled.div`
     padding: 2rem;
   }
 `
+const CardActions = styled.footer`
+  text-align: center;
+`
 
 const CardName = styled.h3`
   font-size: 1.8rem;
@@ -90,11 +95,12 @@ const CardPrice = styled.p`
   }
 `
 
-export { 
-  CardContainer,
-  CardImage,
-  CardDescription,
-  CardName,
+export {
+  CardActions,
   CardCategory, 
+  CardContainer,
+  CardDescription,
+  CardImage,
+  CardName,
   CardPrice
 } 

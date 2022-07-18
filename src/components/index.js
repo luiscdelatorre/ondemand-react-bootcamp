@@ -7,6 +7,8 @@ import Loader from './Loader/Loader'
 import MainMenu from './MainMenu/MainMenu'
 import Pagination from './Pagination/Pagination'
 import ProductsList from './ProductsList/ProductsList'
+import SearchList from './SearchList/SearchList'
+import SearchCard from './SearchCard/SearchCard'
 import Searchbar from './Searchbar/Searchbar'
 import ShoppingCart from './ShoppingCart/ShoppingCart'
 import Sidebar from './Sidebar/Sidebar'
@@ -21,7 +23,9 @@ export {
   MainMenu,
   Pagination,
   ProductsList,
+  SearchList,
   Searchbar,
   ShoppingCart,
   Sidebar,
+  SearchCard
 }

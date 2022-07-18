@@ -14,7 +14,7 @@ import {
   MainHeader
 } from './Header.styles'
 
-const Header = ({ navigate }) => {
+const Header = () => {
   const [showMenu, setShowMenu] = useState(false)
 
   const toggleMenu = () => {
@@ -26,10 +26,10 @@ const Header = ({ navigate }) => {
       <HeaderContainer className='container'>
         <HeaderLeft>
           <MenuHamburger open={showMenu} onClick={toggleMenu}/>
-          <Branding navigate={(page) => navigate(page)}/>
+          <Branding />
         </HeaderLeft>
         <HeaderCenter open={showMenu}>
-          <MainMenu navigate={(page) => navigate(page)}/>
+          <MainMenu toggleMenu={toggleMenu}/>
         </HeaderCenter>
         <HeaderRight>
           <Searchbar />

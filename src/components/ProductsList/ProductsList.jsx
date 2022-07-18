@@ -1,5 +1,4 @@
 import React from 'react'
-import { useEffect, useState } from 'react'
 import { Card, Loader, Pagination } from 'components'
 import {
  Grid,
@@ -7,57 +6,47 @@ import {
  GridFooter,
  GridHeader
 } from './ProductsList.styles'
-import products from 'mocks/en-us/products.json'
-import PropTypes from 'prop-types'
+import { useProducts } from 'utils/hooks'
+import { useDispatch, useSelector } from 'react-redux'
+import { setPage } from 'store/filterSlice'
 
-const ProductsList = ({ filters }) => {
-  const [loading, setLoading] = useState(true)
-  const [filteredProducts, setFilteredProducts] = useState([])
-  const { results } = products
+const ProductsList = () => {
+  const dispatch = useDispatch()
+  const filters = useSelector(state => state.filters.value)
+  const { 
+    products, 
+    total, 
+    isLoading,
+    pagination
+  } = useProducts(filters, [])
 
-  useEffect(() => {
-    const filterItems = () => {
-      const hasFilters = !!filters.length
-      const items = hasFilters 
-        ? results.filter(({ data }) => {
-          const { id } = data.category
-          return filters.includes(id)
-        }) 
-        : results
-      setFilteredProducts(items)
-    }
-    const interval = setTimeout(() => {
-      setLoading(false)
-    }, 2000)
-
-    filterItems()
-    return () => clearTimeout(interval)
-  }, [loading, results, filters])
+  const changePage = (page) => {
+    dispatch(setPage(page))
+  }
 
   return (
     <GridContainer>
-    {loading
+    {isLoading
       ? <Loader />
       : <>
           <GridHeader>
-            <p>Total items: <span>{ filteredProducts.length }</span></p>
+            <p>Total items: <span>{ total }</span></p>
           </GridHeader>
             <Grid>
-              {filteredProducts.map(item => (
+              {products.map(item => (
                 <Card key={item.id} item={item} />
               ))}
             </Grid>
           <GridFooter>
-            <Pagination />
+            <Pagination 
+              pagination={pagination} 
+              changePage={(page) => changePage(page)}
+            />
           </GridFooter>
         </>
       }
     </GridContainer>
   )
-}
-
-ProductsList.propTypes = {
-  filters: PropTypes.array
 }
 
 export default ProductsList

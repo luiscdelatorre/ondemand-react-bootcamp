@@ -2,7 +2,6 @@ import PropTypes from 'prop-types'
 import { useEffect, useState } from 'react'
 import Dots from '../Dots/Dots'
 import Slide from '../Slide/Slide'
-import { ContainerSlider } from './Slider.styles'
 
 const Slider = ({ items }) => {
   const [slideIndex, setSlideIndex] = useState(1)
@@ -27,17 +26,17 @@ const Slider = ({ items }) => {
   })
 
   return (
-    <ContainerSlider>
+    <>
       {items.map((slide, index) => (
         <Slide key={index} slide={slide} active={slideIndex === index + 1} />
       ))}
       <Dots items={items} slideIndex={slideIndex} onSelect={(index) => moveDot(index)} />
-    </ContainerSlider>
+    </>
   )
 }
 
 Slider.propTypes = {
-  items: PropTypes.array
+  items: PropTypes.array.isRequired
 }
 
 export default Slider

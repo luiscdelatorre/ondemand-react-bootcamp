@@ -1,17 +1,22 @@
-import productCategories from 'mocks/en-us/product-categories.json'
 import Category from './components/Category'
 import { Container, CategoriesWrapper, Title } from './FeaturedCategories.styles'
+import { Loader } from 'components'
+import useCategories from 'utils/hooks/useCategories'
 
 const ProductCategories = () => {
-  const { results } = productCategories
+  const { categories, isLoading } = useCategories()
+
   return (
     <Container>
       <Title className='section-title'>Categories</Title>
-      <CategoriesWrapper>
-       {results.map((item) =>(
-          <Category key={item.id} category={item}/>
-        ))}  
-      </CategoriesWrapper>
+      {isLoading
+        ? <Loader /> 
+        : <CategoriesWrapper>
+          {categories.map((item) =>(
+            <Category key={item.id} category={item}/>
+          ))}  
+          </CategoriesWrapper>
+      }
     </Container>
   )
 }

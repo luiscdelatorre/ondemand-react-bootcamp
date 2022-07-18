@@ -51,8 +51,9 @@ p {
   margin: 0 0 1rem 0;
 }
 
-a{
+a {
   color: ${({ theme }) => theme.link};
+  cursor: pointer;
   &:focus {
     outline: none;
     box-shadow: 0 0 0.1rem -0.05rem ${({ theme }) => theme.link};

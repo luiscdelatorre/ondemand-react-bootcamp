@@ -7,7 +7,7 @@ const Filter = ({ name, active, toggleFilter }) => {
     <FilterButton 
       type='button' 
       onClick={() => toggleFilter()}
-      active={active}
+      active={ active }
     >
       { name }
     </FilterButton>
@@ -15,9 +15,9 @@ const Filter = ({ name, active, toggleFilter }) => {
 }
 
 Filter.propTypes = {
-  name: PropTypes.string,
-  active: PropTypes.bool,
-  toggleFilter: PropTypes.func
+  name: PropTypes.string.isRequired,
+  active: PropTypes.bool.isRequired,
+  toggleFilter: PropTypes.func.isRequired
 }
 
 export default Filter 

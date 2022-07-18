@@ -1,12 +1,14 @@
 import { useState, useEffect } from 'react'
 import { API_BASE_URL } from '../constants'
 
-const INITIAL_API_METADATA = { ref: null, isLoading: true }
+const INITIAL_API_METADATA = {
+ ref: null, isLoading: true 
+}
 
 export function useLatestAPI() {
   const [apiMetadata, setApiMetadata] = useState(() => INITIAL_API_METADATA)
 
-  useEffect(() => {
+  useEffect(() => { 
     const controller = new AbortController()
 
     async function getAPIMetadata() {
@@ -18,9 +20,15 @@ export function useLatestAPI() {
         })
         const { refs: [{ ref } = {}] = [] } = await response.json()
 
-        setApiMetadata({ ref, isLoading: false })
+        setApiMetadata({
+          ref, 
+          isLoading: false 
+        })
       } catch (err) {
-        setApiMetadata({ ref: null, isLoading: false })
+        setApiMetadata({
+          ref: null,
+          isLoading: false 
+        })
         console.error(err)
       }
     }

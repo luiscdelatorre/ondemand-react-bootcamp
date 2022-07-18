@@ -1,6 +1,6 @@
 import styled from 'styled-components'
 
-const LogoStyled = styled.h1`
+const Logo = styled.h1`
   cursor: pointer;
   font-size: 3.8rem;
   line-height: 1;
@@ -11,4 +11,4 @@ const LogoStyled = styled.h1`
   }
 `
 
-export { LogoStyled }
+export { Logo }

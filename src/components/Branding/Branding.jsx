@@ -1,18 +1,15 @@
 import logo from 'assets/logo.svg'
-import { LogoStyled } from './Branding.styles'
-import PropTypes from 'prop-types'
+import { Link } from 'react-router-dom'
+import { Logo } from './Branding.styles'
 
-const Branding = ({ navigate }) => {
+const Branding = () => {
   return (
-    <LogoStyled data-testid="name" onClick={() => navigate('home')}>
-      <img data-testid="logo" src={logo} alt="logo" />
-    </LogoStyled>
+    <Logo data-testid="name">
+      <Link to="/home">
+        <img data-testid="logo" src={logo} alt="logo" />
+      </Link>
+    </Logo>
   )
 }
  
-Branding.propTypes = {
-  open: PropTypes.bool,
-  navigate: PropTypes.func
-}
-
 export default Branding

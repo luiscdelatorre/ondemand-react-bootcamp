@@ -1,11 +1,19 @@
 
 import Slider from './components/Slider/Slider'
-import featuredBanners from 'mocks/en-us/featured-banners.json'
+import { useFeaturedBanners } from 'utils/hooks'
+import { Loader } from 'components'
+import { Container } from './FeaturedBanners.styles'
 
 const FeaturedBanners = () => {
-  const { results } = featuredBanners
+  const { featuredBanners, isLoading } = useFeaturedBanners()
+
   return (
-    <Slider items={results}/>
+    <Container>
+      {isLoading
+        ? <Loader /> 
+        : <Slider items={ featuredBanners }/>
+      }
+    </Container>
   )
 }
 

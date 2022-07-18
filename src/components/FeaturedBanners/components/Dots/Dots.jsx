@@ -20,8 +20,9 @@ const Dots = ({ items, slideIndex, onSelect }) => {
 }
 
 Dots.propTypes = {
-  items: PropTypes.array, onSelect: PropTypes.func,
-  slideIndex: PropTypes.number,
+  items: PropTypes.array.isRequired,
+  onSelect: PropTypes.func.isRequired,
+  slideIndex: PropTypes.number.isRequired,
 } 
 
 export default Dots

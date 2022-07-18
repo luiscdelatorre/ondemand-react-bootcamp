@@ -1,5 +1,6 @@
 
-import { 
+import {
+  CardActions,
   CardCategory,
   CardContainer, 
   CardDescription,
@@ -10,26 +11,36 @@ import {
 import PropTypes from 'prop-types'
 
 const Card = ({ item }) => {
-  const { main_image, category, name, price } = item.data
-  const { url, alt } = main_image
+  const { id, data } = item
+  const { mainimage, category, name, price } = data
+  const { url, alt } = mainimage
   const { slug } = category
+  const itemCategory = slug.replace('--', ' & ')
+
+  const handleAddToCart = (e) => {
+    e.preventDefault()
+    console.log('Add to Cart!...', item.id)
+  }
 
   return (
-    <CardContainer>
+    <CardContainer to={`/product/${id}`}>
       <CardImage>
         <img src={url} alt={alt} />
       </CardImage>
       <CardDescription>
         <CardName>{ name }</CardName>
-        <CardCategory>{ slug }</CardCategory>
+        <CardCategory>{ itemCategory }</CardCategory>
         <CardPrice><span>$</span> { price }</CardPrice>
+        <CardActions>
+          <button type='button' onClick={handleAddToCart}>Add to Cart</button>
+        </CardActions>
       </CardDescription>
     </CardContainer>
   )
 }
 
 Card.propTypes = {
-  item: PropTypes.object
+  item: PropTypes.object.isRequired
 } 
 
 export default Card
