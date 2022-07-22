@@ -1,7 +1,7 @@
 import { device } from 'config'
 import styled from 'styled-components'
 
-const ContainerSlider = styled.div`
+const Container = styled.div`
   height: 50vh;
   min-height: 300px;
   overflow: hidden;
@@ -12,4 +12,4 @@ const ContainerSlider = styled.div`
     height: 80vh;
   }
 `
-export { ContainerSlider }
+export { Container }

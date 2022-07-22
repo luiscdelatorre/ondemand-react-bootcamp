@@ -1,22 +1,22 @@
 import { MenuList, MenuListItem } from './MainMenu.styles'
+import { Link } from 'react-router-dom'
 import PropTypes from 'prop-types'
 
-const MainMenu = ({ open, navigate }) => {
+const MainMenu = ({ toggleMenu }) => {
   return (
-    <MenuList open={open}>
+    <MenuList>
       <MenuListItem>
-        <span onClick={() => navigate('home')}>Home</span>
+        <Link onClick={toggleMenu} to="/home">Home</Link>
       </MenuListItem>
       <MenuListItem>
-        <span onClick={() => navigate('products')}>Products</span>
+        <Link onClick={toggleMenu} to="/products">Products</Link>
       </MenuListItem>
     </MenuList>
   )
 }
  
 MainMenu.propTypes = {
-  open: PropTypes.bool,
-  navigate: PropTypes.func
+  toggleMenu: PropTypes.func.isRequired
 }
 
 export default MainMenu

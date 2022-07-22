@@ -36,6 +36,7 @@ const FilterList = styled.ul`
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
+  position: relative;
   
   @media ${device.tablet} {
     flex-direction: column;

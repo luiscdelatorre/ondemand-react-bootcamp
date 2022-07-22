@@ -2,11 +2,13 @@ import { Card, CardContent, Title } from './Category.styles'
 import PropTypes from 'prop-types'
 
 const Category  = ({ category }) => {
-  const { name='', main_image={} } = category.data || {}
-  const { url='', alt='' } = main_image || {}
+  const { slugs, data } = category
+  const { name, main_image } = data
+  const { url, alt } = main_image
+  const categoryLink = slugs[0]
 
   return (
-    <Card>
+    <Card to={`/products?category=${categoryLink}`}>
       <CardContent>
         <Title>{name}</Title>
         <img src={url} alt={alt} />
@@ -16,7 +18,7 @@ const Category  = ({ category }) => {
 }
 
 Category.propTypes = {
-  category: PropTypes.object,
+  category: PropTypes.object.isRequired,
 }
 
 export default Category

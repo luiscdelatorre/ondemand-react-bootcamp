@@ -4,14 +4,15 @@ import { Header, Footer } from 'layout'
 import { theme } from 'config'
 import { ContainerStyled, MainContentStyled } from './MainLayout.styles'
 import GlobalStyles from 'Global.styles'
+import { Outlet } from 'react-router-dom'
 
-const MainLayout = ({ children, navigate }) => {
+const MainLayout = () => {
   return (
     <ThemeProvider theme={theme.light}>
       <GlobalStyles />
       <ContainerStyled>
-        <Header navigate={(page) => navigate(page)}/>
-        <MainContentStyled>{children}</MainContentStyled>
+        <Header/>
+        <MainContentStyled><Outlet /></MainContentStyled>
         <Footer />
       </ContainerStyled>
     </ThemeProvider>

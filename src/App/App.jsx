@@ -1,23 +1,32 @@
-import React, { useState } from 'react'
+import React from 'react'
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
 import MainLayout from 'layout/MainLayout/MainLayout'
-import { Home, Products } from 'pages'
+import {
+ Home,
+ Products,
+ NoMatch,
+ Product, 
+ Search
+} from 'pages'
+import { Provider } from 'react-redux'
+import store from '../store/store'
 
 const App = () => {
-  const [activePage, setActivePage] = useState( 'home' )
-
-  const navigate = ( page ) => {
-    setActivePage( page )
-  }
-  
-  const isHomePage = activePage === 'home'
-
   return (
-    <MainLayout navigate={( page ) => navigate( page )}>
-      {isHomePage
-        ? <Home navigate={( page ) => navigate( page )} />
-        : <Products />
-      }
-    </MainLayout>
+    <Provider store={store}>
+      <Router>
+        <Routes>
+          <Route path="/" element={<MainLayout />}>
+            <Route index element={<Home />} />
+            <Route path="home" element={<Home />} />
+            <Route path="products" element={<Products />} />
+            <Route path="product/:productId" element={<Product />} />
+            <Route path="search" element={<Search />} />
+            <Route path="*" element={<NoMatch />} />
+          </Route>
+        </Routes>
+      </Router>
+    </Provider>
   )
 }
 

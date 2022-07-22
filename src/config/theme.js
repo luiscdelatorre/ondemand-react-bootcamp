@@ -23,6 +23,7 @@ const light = {
   slideOverlay: colors.gray900,
   filter: colors.gray200,
   filterHover: colors.gray300,
+  buttonDisabled: colors.gray300,
 }
 
 export const theme = {

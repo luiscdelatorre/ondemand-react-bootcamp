@@ -1,21 +1,43 @@
-import React from 'react'
+import React, { useEffect, useRef } from 'react'
 import { IoSearchOutline } from 'react-icons/io5'
-import { SearchStyled, SearchButtonStyled } from './Searchbar.styles'
+import { useNavigate, useSearchParams } from 'react-router-dom'
+import {
+ SearchButton,
+ SearchbarContainer,
+ SearchInput,
+ SearchForm
+} from './Searchbar.styles'
 
 const Searchbar = () => {
+  const [searchParams] = useSearchParams()
+  const navigate = useNavigate()
+  const inputEl = useRef('')
+
+  useEffect(() => {
+    inputEl.current.value = searchParams.get('search')
+  }, [searchParams])
+
+  const onSearch = (event) => {
+    event.preventDefault()
+    navigate({
+      pathname: '/search',
+      search: `?search=${inputEl.current.value}`
+    })
+  }
   
   return (
-    <SearchStyled>
-      <SearchButtonStyled>
-        <IoSearchOutline />
-      </SearchButtonStyled>
-      {/* <form>
-        <SearchInputStyled
-          type="search"
-          placeholder="Search"
-        />
-      </form> */}
-    </SearchStyled>
+    <SearchbarContainer>
+        <SearchForm>
+          <SearchInput
+            type="search"
+            placeholder="Search"
+            ref={inputEl}
+          />
+          <SearchButton type="submit" onClick={onSearch}>
+            <IoSearchOutline />
+          </SearchButton>
+        </SearchForm>
+    </SearchbarContainer>
   )
 }
 

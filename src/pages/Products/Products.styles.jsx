@@ -21,7 +21,7 @@ const Container = styled.section`
   }
 
   @media ${device.desktopLg} {  
-    grid-template-columns: 260px 1fr;
+    grid-template-columns: 240px 1fr;
   }
 `
 
@@ -29,6 +29,7 @@ const PageHeader = styled.div`
   grid-area: page-header;
   text-align: center;
 `
+
 const Title = styled.h2`
   margin: 4rem 0;
 

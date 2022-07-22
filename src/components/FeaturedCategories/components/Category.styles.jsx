@@ -1,7 +1,8 @@
 import { device } from 'config'
 import styled from 'styled-components'
+import { Link } from 'react-router-dom'
 
-const Card = styled.div`
+const Card = styled(Link)`
   max-width: 50%;
   &:last-child {
     max-width: 100%;
