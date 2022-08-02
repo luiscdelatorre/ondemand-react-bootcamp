@@ -1,12 +1,14 @@
 const getSearchQuery = (params) => {
-  let query = ''
-  params.forEach(param => {
-    Object.keys(param).forEach(key => {
-      const value = encodeURIComponent(`${param[key]}`)
-      query += `&${key}=${value}`
-    })
-  })
-  
+  const query = params.reduce((previousParam, param) => {
+    const currentParam = Object
+      .entries(param)
+      .reduce((previousValue, [key, rawValue]) => {
+        const value = encodeURIComponent(`${rawValue}`)
+        return previousValue + `&${key}=${value}`
+      }, '')
+    return previousParam + currentParam
+  }, '')
+
   return query
 }
 

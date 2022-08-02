@@ -18,27 +18,18 @@ const SearchButton = styled.button`
 
   &:hover {
     background-color: transparent;
-    color: ${({theme}) => theme.primary};
   }
 `
 const SearchInput = styled.input`
   align-items: center;
   background-color: transparent;
-  border-radius: 2rem;
-  color: ${(props) => props.theme.text};
-  font-size: 1.6rem;
-  height: 38px;
   justify-content: center;
   padding: 0 3.5rem 0 1.5rem;
   width: 100%;
-  border: 1px solid ${({ theme }) => theme.borderColor};
   outline: none;
 
-  &:focus {
-    border-color: ${({ theme }) => theme.primary};
-    ~ button {
-      color: ${({theme}) => theme.primary};
-    } 
+  &:focus ~ button {
+    color: ${({theme}) => theme.primary};
   }
 `
 

@@ -1,4 +1,4 @@
-import { IoChevronBack, IoChevronForward } from 'react-icons/io5'
+import {TbChevronLeft, TbChevronRight } from 'react-icons/tb'
 import {
   PageItem,
   PageLink,
@@ -32,35 +32,36 @@ const Pagination = ({ pagination, changePage }) => {
   }
 
   return (
-    <PaginationContainer>
-      <PaginationList>
-        <PageItem disabled={!prevPage}>
-          <PageLink type='button' onClick={handlePrevPage}>
-            <IoChevronBack />
-          </PageLink>
-        </PageItem>
-        {pagesArray.map((page, index) => {
-            const isActive = currentPage === page
-            return (
-              <PageItem key={index}>
-                <PageLink 
-                  type='button'
-                  active={isActive}
-                  onClick={() => changePage(page)}
-                >
-                  { page }
-                </PageLink>
-              </PageItem>
-            )
-          })
-        }
-        <PageItem disabled={!nextPage}>
-          <PageLink type='button' onClick={handleNextPage}>
-            <IoChevronForward />
-          </PageLink>
-        </PageItem>
-      </PaginationList>
-    </PaginationContainer>
+    totalPages > 1 && 
+      <PaginationContainer>
+        <PaginationList>
+          <PageItem disabled={!prevPage}>
+            <PageLink type='button' onClick={handlePrevPage}>
+              <TbChevronLeft />
+            </PageLink>
+          </PageItem>
+          {pagesArray.map((page, index) => {
+              const isActive = currentPage === page
+              return (
+                <PageItem key={index}>
+                  <PageLink 
+                    type='button'
+                    active={isActive}
+                    onClick={() => changePage(page)}
+                  >
+                    { page }
+                  </PageLink>
+                </PageItem>
+              )
+            })
+          }
+          <PageItem disabled={!nextPage}>
+            <PageLink type='button' onClick={handleNextPage}>
+              <TbChevronRight />
+            </PageLink>
+          </PageItem>
+        </PaginationList>
+      </PaginationContainer>
   )
 }
 

@@ -2,7 +2,7 @@ import { device } from 'config'
 import styled from 'styled-components'
 
 const Aside = styled.aside`
-  border: 1px solid ${(props) => props.theme.borderColor};
+  border: 1px solid ${(props) => props.theme.borderColor };
   grid-area: sidebar;
   padding: 0 2rem 2rem;
   width: 100%;

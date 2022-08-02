@@ -4,9 +4,13 @@ import { device } from 'config'
 const Grid = styled.div`
   display: grid;
   grid-gap: 2rem;
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: repeat(1, 1fr);
   min-height: 100%;
   padding: 0 2rem 2rem;
+
+  @media ${device.phoneMd} {  
+    grid-template-columns: repeat(2, 1fr);
+  }
 
   @media ${device.laptop} {  
     grid-template-columns: repeat(3, 1fr);
@@ -47,8 +51,8 @@ const GridFooter = styled.div`
 `
 
 export {
-  GridContainer,
-  GridHeader,
   Grid,
-  GridFooter
+  GridContainer,
+  GridFooter,
+  GridHeader,
 }

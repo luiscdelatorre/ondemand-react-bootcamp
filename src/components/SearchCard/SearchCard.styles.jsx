@@ -26,11 +26,11 @@ const CardContainer = styled(Link)`
       'image price category'
       'image description description'
       'image actions actions';
-    grid-template-columns: 16rem auto 1fr;
+    grid-template-columns: 16rem 1fr 20rem;
   }
 
   @media ${device.tablet} {
-    grid-template-columns: 18rem auto 1fr;
+    grid-template-columns: 18rem 1fr 20rem;
   }
 
   @media ${device.laptop} {
@@ -39,7 +39,7 @@ const CardContainer = styled(Link)`
       'image price actions'
       'image category actions'
       'image description actions';
-    grid-template-columns: 12rem 1fr auto;
+    grid-template-columns: 12rem 1fr 20rem;
     grid-template-rows: auto auto auto 1fr;
   }
 
@@ -64,7 +64,7 @@ const CardImage = styled.figure`
 
   @media ${device.phone} {
     max-height: 32rem;
-    border-bottom: 1px solid ${({ theme }) => theme.borderColor};
+    border-bottom: 1px solid ${({ theme }) => theme.borderColor };
   }
 
   img {
@@ -94,10 +94,6 @@ const CardActions = styled.footer`
 
   @media ${device.phoneLg} {
     padding: 1rem;
-  }
-
-  button {
-    width: 100%;
   }
 `
 

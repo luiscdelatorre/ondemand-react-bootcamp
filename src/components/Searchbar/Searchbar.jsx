@@ -19,10 +19,13 @@ const Searchbar = () => {
 
   const onSearch = (event) => {
     event.preventDefault()
-    navigate({
-      pathname: '/search',
-      search: `?search=${inputEl.current.value}`
-    })
+    const hasContent = !!inputEl.current.value?.trim()
+    if (hasContent) {
+      navigate({
+        pathname: '/search',
+        search: `?search=${inputEl.current.value}`
+      })
+    }
   }
   
   return (

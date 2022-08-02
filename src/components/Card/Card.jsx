@@ -9,18 +9,21 @@ import {
   CardPrice
 } from './Card.styles'
 import PropTypes from 'prop-types'
+import { AddToCart } from 'components'
 
 const Card = ({ item }) => {
-  const { id, data } = item
-  const { mainimage, category, name, price } = data
-  const { url, alt } = mainimage
-  const { slug } = category
+  const {
+    id,
+    data: {
+      name,
+      price,
+      stock,
+      category: { slug },
+      mainimage: { url, alt }
+    },
+  } = item
   const itemCategory = slug.replace('--', ' & ')
-
-  const handleAddToCart = (e) => {
-    e.preventDefault()
-    console.log('Add to Cart!...', item.id)
-  }
+  const hasStock = stock > 0
 
   return (
     <CardContainer to={`/product/${id}`}>
@@ -32,7 +35,10 @@ const Card = ({ item }) => {
         <CardCategory>{ itemCategory }</CardCategory>
         <CardPrice><span>$</span> { price }</CardPrice>
         <CardActions>
-          <button type='button' onClick={handleAddToCart}>Add to Cart</button>
+          {hasStock
+            ? <AddToCart type="button" id={ id } stock={ stock } />
+            : <button type="button" disabled>Out of stock</button>
+          }
         </CardActions>
       </CardDescription>
     </CardContainer>

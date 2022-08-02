@@ -1,5 +1,7 @@
 const size = {
-  phone: 576,
+  phoneSm: 320,
+  phoneMd: 412,
+  phoneLg: 576,
   tablet: 768,
   laptop: 992,
   desktop: 1200,
@@ -7,8 +9,9 @@ const size = {
 }
   
 const device = {
-  phone: `screen and (max-width: ${size.phone - 1}px)`,
-  phoneLg: `screen and (min-width: ${size.phone}px)`,
+  phone: `screen and (max-width: ${size.tablet - 1}px)`,
+  phoneMd: `screen and (min-width: ${size.phoneMd}px)`,
+  phoneLg: `screen and (min-width: ${size.phoneLg}px)`,
   tablet: `screen and (min-width: ${size.tablet}px)`,
   laptop: `screen and (min-width: ${size.laptop}px)`,
   desktop: `screen and (min-width: ${size.desktop}px)`,
