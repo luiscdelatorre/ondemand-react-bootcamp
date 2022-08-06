@@ -1,3 +1,4 @@
+import AddToCart from './AddToCart/AddToCart'
 import Branding from './Branding/Branding'
 import Card from './Card/Card'
 import FeaturedBanners from './FeaturedBanners/FeaturedBanners'
@@ -12,10 +13,20 @@ import SearchCard from './SearchCard/SearchCard'
 import Searchbar from './Searchbar/Searchbar'
 import ShoppingCart from './ShoppingCart/ShoppingCart'
 import Sidebar from './Sidebar/Sidebar'
+import CartProducts from './CartProducts/CartProducts'
+import ProductGallery from './ProductGallery/ProductGallery'
+import ProductInfo from './ProductInfo/ProductInfo'
+import ProductPurchase from './ProductPurchase/ProductPurchase'
+import ProductSpecs from './ProductSpecs/ProductSpecs'
+import CheckoutForm from './CheckoutForm/CheckoutForm'
+import CheckoutSummary from './CheckoutSummary/CheckoutSummary'
+
 
 export { 
+  AddToCart,
   Branding,
   Card,
+  CartProducts,
   FeaturedBanners,
   FeaturedCategories,
   FeaturedProducts,
@@ -27,5 +38,11 @@ export {
   Searchbar,
   ShoppingCart,
   Sidebar,
-  SearchCard
+  SearchCard,
+  ProductGallery,
+  ProductInfo,
+  ProductPurchase,
+  ProductSpecs,
+  CheckoutForm,
+  CheckoutSummary,
 }

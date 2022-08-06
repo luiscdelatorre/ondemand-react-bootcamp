@@ -103,7 +103,7 @@ ul {
   padding-left: 0;
 }
 
-button{
+button {
   border-radius: 3rem;
   background-color: ${({ theme }) => theme.primary};
   color: ${({ theme }) => theme.textSecondary};
@@ -119,9 +119,17 @@ button{
   &:focus {
     outline: none;
   }
+
   &:hover {
     background-color: ${({ theme }) => theme.primaryDark};
     transition: ${({ theme }) => theme.transition};
+  }
+
+  &[disabled] {
+    width: 100%;
+    cursor: not-allowed;
+    background-color: ${({ theme }) => theme.disabled};
+    color: ${({ theme }) => theme.text};
   }
 }
 
@@ -136,6 +144,33 @@ img{
   display: inline-block;
   vertical-align: top;
   max-width: 100%;
+}
+
+input, textarea {
+  border-radius: 2rem;
+  color: ${(props) => props.theme.text};
+  font-size: 1.6rem;
+  border: 1px solid ${({ theme }) => theme.borderColor };
+
+  &:focus {
+    border-color: ${({ theme }) => theme.primary}; 
+    outline: none;
+  }
+}
+
+label {
+  font-size: 1.6rem;
+  display: block;
+}
+
+input {
+  height: 38px;
+  padding: 0 1.5rem;
+}
+
+textarea {
+  resize: none;
+  padding: 1.5rem;
 }
 
 .container {

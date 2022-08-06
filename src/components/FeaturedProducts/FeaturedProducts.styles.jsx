@@ -22,9 +22,13 @@ const Title = styled.h2`
 const Grid = styled.div`
   display: grid;
   grid-gap: 2rem;
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: repeat(1, 1fr);
   margin-bottom: 4rem;
   padding: 0 2rem;
+
+  @media ${device.phoneMd} {  
+    grid-template-columns: repeat(2, 1fr);
+  }
 
   @media ${device.tablet} {  
     grid-template-columns: repeat(3, 1fr);

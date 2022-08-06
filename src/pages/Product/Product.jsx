@@ -1,10 +1,9 @@
-import { Loader } from 'components'
+import {
+ Loader, ProductGallery, ProductInfo, ProductPurchase, ProductSpecs 
+} from 'components'
 import { useParams } from 'react-router-dom'
 import useProduct from 'utils/hooks/useProduct'
-import ProductGallery from './components/ProductGallery/ProductGallery'
-import ProductInfo from './components/ProductInfo/ProductInfo'
-import ProductPurchase from './components/ProductPurchase/ProductPurchase'
-import ProductSpecs from './components/ProductSpecs/ProductSpecs'
+
 import {
  Container, GalleryContainer, InfoContainer, PurchaseContainer, SpecsContainer
 } from './Product.styles'
@@ -12,7 +11,7 @@ import {
 const Product = () => {
   const { productId } = useParams()
   const { 
-    product = {},
+    product,
     isLoading
   } = useProduct(productId)
   const { data } = product
@@ -21,19 +20,19 @@ const Product = () => {
     isLoading
       ? <Loader />
       : <Container className='container'>
-        <GalleryContainer>
-          <ProductGallery {...data} />
-        </GalleryContainer>
-        <InfoContainer>
-          <ProductInfo {...data}/>
-        </InfoContainer>
-        <PurchaseContainer>
-          <ProductPurchase {...data} />
-        </PurchaseContainer>
-        <SpecsContainer>
-          <ProductSpecs {...data} />
-        </SpecsContainer>
-      </Container>
+          <GalleryContainer>
+            <ProductGallery {...data} />
+          </GalleryContainer>
+          <InfoContainer>
+            <ProductInfo {...data}/>
+          </InfoContainer>
+          <PurchaseContainer>
+            <ProductPurchase productId={productId} {...data} />
+          </PurchaseContainer>
+          <SpecsContainer>
+            <ProductSpecs {...data} />
+          </SpecsContainer>
+        </Container>
   )
 }
 

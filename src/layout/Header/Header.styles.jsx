@@ -2,9 +2,15 @@ import styled from 'styled-components'
 import { device } from 'config'
 
 const MainHeader = styled.header`
-  grid-area: header;
-  display: grid;
+  background-color: ${({ theme }) => theme.background};
   border-bottom: 1px solid ${({ theme }) => theme.borderColor};
+  display: grid;
+  grid-area: header;
+  left: 0;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1;
 `
 
 const HeaderContainer = styled.div`
@@ -37,8 +43,8 @@ const HeaderCenter = styled(HeaderItem)`
   grid-area: header-center;
 
   @media ${device.onlySm} {
-    position: absolute;
-    top: 60px;
+    position: fixed;
+    top: 5.9rem;
     left: -100%;
     bottom: 0;
     z-index: 10;
@@ -57,16 +63,16 @@ const HeaderRight = styled(HeaderItem)`
 `
 
 const MenuHamburger = styled.button`
-  position: relative;
+  align-items: center;
   background: none;
-  height: 3.8rem;
-  width: 3.8rem;
   display: flex;
   flex-direction: column;
+  height: 3.8rem;
   justify-content: space-between;
-  align-items: center;
   margin-right: 1rem;
   padding: 1.2rem;
+  position: relative;
+  width: 3.8rem;
 
   @media ${device.laptop} {
     display: none;
