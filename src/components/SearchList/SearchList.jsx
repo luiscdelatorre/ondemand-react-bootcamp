@@ -35,7 +35,7 @@ const SearchList = () => {
             <p>Total items: <span>{ total }</span></p>
           </GridHeader>
           {products.length 
-           ? <Grid>
+           ? <Grid data-testid="search-list">
              {products.map(item => (
               <SearchCard key={ item.id } item={ item } />
              ))}

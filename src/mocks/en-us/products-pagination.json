@@ -1,0 +1,468 @@
+{
+"page": 8,
+"results_per_page": 12,
+"results_size": 4,
+"total_results_size": 88,
+"total_pages": 8,
+"next_page": null,
+"prev_page": "https://wizeline-academy.cdn.prismic.io/api/v2/documents/search?ref=YZaBvBIAACgAvnOP&q=%5B%5Bat%28document.type%2C+%22product%22%29%5D%5D&q=%5B%5Bany%28my.product.category%2C+%5B%5D%29%5D%5D&q=%5B%5Bat%28document.tags%2C+%5B%5D%29%5D%5D&page=7&pageSize=12&languageCode=en-us",
+"results": [
+{
+"id": "YZWfYxIAAC8Aum5Q",
+"uid": null,
+"url": null,
+"type": "product",
+"href": "https://wizeline-academy.cdn.prismic.io/api/v2/documents/search?ref=YZaBvBIAACgAvnOP&q=%5B%5B%3Ad+%3D+at%28document.id%2C+%22YZWfYxIAAC8Aum5Q%22%29+%5D%5D",
+"tags": [
+"Bathroom"
+],
+"first_publication_date": "2021-11-18T00:33:44+0000",
+"last_publication_date": "2021-11-18T00:33:44+0000",
+"slugs": [
+"black-marble-soap-dispenser",
+"dispensador-de-jabon-black-marble"
+],
+"linked_documents": [],
+"lang": "en-us",
+"alternate_languages": [
+{
+"id": "YZWe0xIAAC0AumvG",
+"type": "product",
+"lang": "es-mx"
+}
+],
+"data": {
+"name": "Black Marble Soap Dispenser",
+"sku": "1080583300",
+"category": {
+"id": "YWHx-xIAAC0Ayj7i",
+"type": "category",
+"tags": [],
+"lang": "en-us",
+"slug": "bed--bath",
+"first_publication_date": "2021-10-09T23:33:05+0000",
+"last_publication_date": "2021-10-12T23:45:23+0000",
+"link_type": "Document",
+"isBroken": false
+},
+"mainimage": {
+"dimensions": {
+"width": 940,
+"height": 1215
+},
+"alt": "Black Marble Soap Dispenser",
+"copyright": null,
+"url": "https://images.prismic.io/wizeline-academy/88b2273c-7a86-415d-9430-356f52b1f1e0_1.webp?auto=compress,format"
+},
+"short_description": "Crafted to showcase the beautiful veins of black marble, these accessories take the look of the bathroom to new heights. Made of 100% natural marble. The different shades of color and texture make the product unique",
+"description": [
+{
+"type": "paragraph",
+"text": "Crafted to showcase the beautiful veins of black marble, these accessories take the look of the bathroom to new heights. Made of 100% natural marble. The different shades of color and texture make the product unique",
+"spans": []
+}
+],
+"specs": [
+{
+"spec_name": "Color",
+"spec_value": "Black"
+},
+{
+"spec_name": "Dimensions",
+"spec_value": "7.62 cm diameter x 19.68 cm high. 162.65 ml approximate"
+},
+{
+"spec_name": "Care and Cleaning Instructions",
+"spec_value": "Clean with a soft, dry cloth. To protect the finish, avoid household and abrasive cleaners"
+}
+],
+"images": [
+{
+"image": {
+"dimensions": {
+"width": 940,
+"height": 1215
+},
+"alt": null,
+"copyright": null,
+"url": "https://images.prismic.io/wizeline-academy/88b2273c-7a86-415d-9430-356f52b1f1e0_1.webp?auto=compress,format"
+}
+},
+{
+"image": {
+"dimensions": {
+"width": 940,
+"height": 1215
+},
+"alt": null,
+"copyright": null,
+"url": "https://images.prismic.io/wizeline-academy/d1b4f8d5-3419-401e-849d-b853f6e86308_2.webp?auto=compress,format"
+}
+},
+{
+"image": {
+"dimensions": {
+"width": 940,
+"height": 1215
+},
+"alt": null,
+"copyright": null,
+"url": "https://images.prismic.io/wizeline-academy/5513f148-7c0a-4090-a6df-e47af0fd0a21_3.webp?auto=compress,format"
+}
+}
+],
+"stock": 44,
+"price": 29
+}
+},
+{
+"id": "YZWtdxIAACkAuq3K",
+"uid": null,
+"url": null,
+"type": "product",
+"href": "https://wizeline-academy.cdn.prismic.io/api/v2/documents/search?ref=YZaBvBIAACgAvnOP&q=%5B%5B%3Ad+%3D+at%28document.id%2C+%22YZWtdxIAACkAuq3K%22%29+%5D%5D",
+"tags": [
+"Pillowcases"
+],
+"first_publication_date": "2021-11-18T01:33:49+0000",
+"last_publication_date": "2021-11-18T01:33:49+0000",
+"slugs": [
+"honeycomb-cushion-cover",
+"funda-para-cojin-honeycomb"
+],
+"linked_documents": [],
+"lang": "en-us",
+"alternate_languages": [
+{
+"id": "YZWtARIAACgAuqup",
+"type": "product",
+"lang": "es-mx"
+}
+],
+"data": {
+"name": "Honeycomb Cushion Cover",
+"sku": "1083939337",
+"category": {
+"id": "YWHx-xIAAC0Ayj7i",
+"type": "category",
+"tags": [],
+"lang": "en-us",
+"slug": "bed--bath",
+"first_publication_date": "2021-10-09T23:33:05+0000",
+"last_publication_date": "2021-10-12T23:45:23+0000",
+"link_type": "Document",
+"isBroken": false
+},
+"mainimage": {
+"dimensions": {
+"width": 940,
+"height": 1215
+},
+"alt": "Funda para Cojín Honeycomb",
+"copyright": null,
+"url": "https://images.prismic.io/wizeline-academy/d89f385e-3748-429e-9a99-51fbbd02e3a0_1.webp?auto=compress,format"
+},
+"short_description": "Update your textured bedding basics in solid colors for a relaxing bed that's anything but boring. Made with 100% waffle woven cotton. The duvet and cover are reverted to 200 percale cotton thread count. The duvet and cover have a button flap with a back closure. When purchasing the cushion cover it is highly recommended to purchase any of our cushion fillers. When buying the duvet it is highly recommended to buy any of our duvet fillers. Duvet and cushion cover sold separately. Does not include filler",
+"description": [
+{
+"type": "paragraph",
+"text": "Update your textured bedding basics in solid colors for a relaxing bed that's anything but boring. Made with 100% waffle woven cotton. The duvet and cover are reverted to 200 percale cotton thread count. The duvet and cover have a button flap with a back closure. When purchasing the cushion cover it is highly recommended to purchase any of our cushion fillers. When buying the duvet it is highly recommended to buy any of our duvet fillers. Duvet and cushion cover sold separately. Does not include filler",
+"spans": []
+}
+],
+"specs": [
+{
+"spec_name": "Material",
+"spec_value": "Cotton"
+},
+{
+"spec_name": "Dimensions",
+"spec_value": "Individual Duvet: 1.72 m wide x 2.18 m long. Double-Queen: 2.23 m wide x 2.33 m long. King-Cal: 2.74 m wide x 2.33 m long"
+}
+],
+"images": [
+{
+"image": {
+"dimensions": {
+"width": 940,
+"height": 1215
+},
+"alt": null,
+"copyright": null,
+"url": "https://images.prismic.io/wizeline-academy/d89f385e-3748-429e-9a99-51fbbd02e3a0_1.webp?auto=compress,format"
+}
+},
+{
+"image": {
+"dimensions": {
+"width": 940,
+"height": 1215
+},
+"alt": null,
+"copyright": null,
+"url": "https://images.prismic.io/wizeline-academy/02d88675-0fc8-4b59-bc65-b033ef2188da_2.jpeg?auto=compress,format"
+}
+},
+{
+"image": {
+"dimensions": {
+"width": 940,
+"height": 1215
+},
+"alt": null,
+"copyright": null,
+"url": "https://images.prismic.io/wizeline-academy/1eb64f24-c691-4ec6-bd8f-31139b939289_3.jpeg?auto=compress,format"
+}
+},
+{
+"image": {
+"dimensions": {
+"width": 940,
+"height": 1215
+},
+"alt": null,
+"copyright": null,
+"url": "https://images.prismic.io/wizeline-academy/7d3e4a09-0761-47de-bfee-8ebe290f23af_4.jpeg?auto=compress,format"
+}
+},
+{
+"image": {
+"dimensions": {
+"width": 940,
+"height": 1215
+},
+"alt": null,
+"copyright": null,
+"url": "https://images.prismic.io/wizeline-academy/f52f6f9d-1ba8-456e-af83-a3b661a57dd0_5.webp?auto=compress,format"
+}
+}
+],
+"stock": 37,
+"price": 49
+}
+},
+{
+"id": "YZWdwRIAACkAumb-",
+"uid": null,
+"url": null,
+"type": "product",
+"href": "https://wizeline-academy.cdn.prismic.io/api/v2/documents/search?ref=YZaBvBIAACgAvnOP&q=%5B%5B%3Ad+%3D+at%28document.id%2C+%22YZWdwRIAACkAumb-%22%29+%5D%5D",
+"tags": [
+"Bathroom",
+"Featured"
+],
+"first_publication_date": "2021-11-18T00:26:45+0000",
+"last_publication_date": "2021-11-18T00:26:45+0000",
+"slugs": [
+"disney-mickey-mouse-soap-dispenser",
+"dispensador-de-jabon-disney-mickey-mouse"
+],
+"linked_documents": [],
+"lang": "en-us",
+"alternate_languages": [
+{
+"id": "YZWdRhIAAC0AumTV",
+"type": "product",
+"lang": "es-mx"
+}
+],
+"data": {
+"name": "Disney Mickey Mouse Soap Dispenser",
+"sku": "1107981469",
+"category": {
+"id": "YWHx-xIAAC0Ayj7i",
+"type": "category",
+"tags": [],
+"lang": "en-us",
+"slug": "bed--bath",
+"first_publication_date": "2021-10-09T23:33:05+0000",
+"last_publication_date": "2021-10-12T23:45:23+0000",
+"link_type": "Document",
+"isBroken": false
+},
+"mainimage": {
+"dimensions": {
+"width": 696,
+"height": 900
+},
+"alt": "Disney Mickey Mouse Soap Dispenser",
+"copyright": null,
+"url": "https://images.prismic.io/wizeline-academy/5b557651-ed8c-46f4-9b4f-c00ef94e4a02_2.webp?auto=compress,format"
+},
+"short_description": "Brighten up your space with the all-magic mascot: Disney's Mickey Mouse. When you need an easy (and adorable) upgrade, our black stoneware soap or lotion dispenser, complete with a portrait of one of the world's most famous characters, is perfect for your dressing table.",
+"description": [
+{
+"type": "paragraph",
+"text": "Brighten up your space with the all-magic mascot: Disney's Mickey Mouse. When you need an easy (and adorable) upgrade, our black stoneware soap or lotion dispenser, complete with a portrait of one of the world's most famous characters, is perfect for your dressing table.",
+"spans": []
+}
+],
+"specs": [
+{
+"spec_name": "Color",
+"spec_value": "Black"
+},
+{
+"spec_name": "Product width",
+"spec_value": "Approximate diameter 7.6 cm"
+},
+{
+"spec_name": "Product height",
+"spec_value": "19.05 cm approximate"
+}
+],
+"images": [
+{
+"image": {
+"dimensions": {
+"width": 696,
+"height": 900
+},
+"alt": null,
+"copyright": null,
+"url": "https://images.prismic.io/wizeline-academy/5b557651-ed8c-46f4-9b4f-c00ef94e4a02_2.webp?auto=compress,format"
+}
+},
+{
+"image": {
+"dimensions": {
+"width": 696,
+"height": 900
+},
+"alt": null,
+"copyright": null,
+"url": "https://images.prismic.io/wizeline-academy/273c2c4a-889d-443a-a701-0c45a4f011c5_1.webp?auto=compress,format"
+}
+}
+],
+"stock": 22,
+"price": 23
+}
+},
+{
+"id": "YZWlSRIAACoAuoj9",
+"uid": null,
+"url": null,
+"type": "product",
+"href": "https://wizeline-academy.cdn.prismic.io/api/v2/documents/search?ref=YZaBvBIAACgAvnOP&q=%5B%5B%3Ad+%3D+at%28document.id%2C+%22YZWlSRIAACoAuoj9%22%29+%5D%5D",
+"tags": [
+"Bathroom"
+],
+"first_publication_date": "2021-11-18T00:58:53+0000",
+"last_publication_date": "2021-11-18T00:58:53+0000",
+"slugs": [
+"classic-organic-loop-mat",
+"tapete-classic-organic-loop"
+],
+"linked_documents": [],
+"lang": "en-us",
+"alternate_languages": [
+{
+"id": "YZWk8hIAAC4Auod5",
+"type": "product",
+"lang": "es-mx"
+}
+],
+"data": {
+"name": "Classic Organic Loop Mat",
+"sku": "1105593046",
+"category": {
+"id": "YWHx-xIAAC0Ayj7i",
+"type": "category",
+"tags": [],
+"lang": "en-us",
+"slug": "bed--bath",
+"first_publication_date": "2021-10-09T23:33:05+0000",
+"last_publication_date": "2021-10-12T23:45:23+0000",
+"link_type": "Document",
+"isBroken": false
+},
+"mainimage": {
+"dimensions": {
+"width": 696,
+"height": 900
+},
+"alt": "Classic Organic Loop Mat",
+"copyright": null,
+"url": "https://images.prismic.io/wizeline-academy/83134f44-2676-4fd9-a4a6-c8b28fb03afe_1.jpeg?auto=compress,format"
+},
+"short_description": "There's nothing like stepping on a bath mat that looks like a cloud after a shower, and ours is the softest and fluffiest you'll find. It is made of pure organic fleece-type cotton for extra softness. 100% organic cotton absorbent fleece on one side and shorn on the other. Pottery Barn is a proud member of the Better Cotton Initiative. Our cotton products support the most sustainable cotton farming. This product meets the strict requirements of the Global Organic Textile Standard (GOTS), the world's leading processing standard for organic textiles to ensure a healthier home for you and a better planet for everyone.",
+"description": [
+{
+"type": "paragraph",
+"text": "There's nothing like stepping on a bath mat that looks like a cloud after a shower, and ours is the softest and fluffiest you'll find. It is made of pure organic fleece-type cotton for extra softness. 100% organic cotton absorbent fleece on one side and shorn on the other. Pottery Barn is a proud member of the Better Cotton Initiative. Our cotton products support the most sustainable cotton farming. This product meets the strict requirements of the Global Organic Textile Standard (GOTS), the world's leading processing standard for organic textiles to ensure a healthier home for you and a better planet for everyone.",
+"spans": []
+}
+],
+"specs": [
+{
+"spec_name": "Color",
+"spec_value": "White"
+},
+{
+"spec_name": "Collection",
+"spec_value": "Classic Organic Loop"
+},
+{
+"spec_name": "Product width",
+"spec_value": "86.36 cm"
+},
+{
+"spec_name": "Product length",
+"spec_value": "53.34 cm"
+}
+],
+"images": [
+{
+"image": {
+"dimensions": {
+"width": 696,
+"height": 900
+},
+"alt": null,
+"copyright": null,
+"url": "https://images.prismic.io/wizeline-academy/83134f44-2676-4fd9-a4a6-c8b28fb03afe_1.jpeg?auto=compress,format"
+}
+},
+{
+"image": {
+"dimensions": {
+"width": 696,
+"height": 900
+},
+"alt": null,
+"copyright": null,
+"url": "https://images.prismic.io/wizeline-academy/c5b71f0c-c11a-420a-8cd1-0ca2f655a924_2.webp?auto=compress,format"
+}
+},
+{
+"image": {
+"dimensions": {
+"width": 696,
+"height": 900
+},
+"alt": null,
+"copyright": null,
+"url": "https://images.prismic.io/wizeline-academy/e3e56a66-d315-47bd-a70b-90ad3ce0d35e_3.jpeg?auto=compress,format"
+}
+},
+{
+"image": {
+"dimensions": {
+"width": 696,
+"height": 900
+},
+"alt": null,
+"copyright": null,
+"url": "https://images.prismic.io/wizeline-academy/9fa6afcb-8088-4cee-a722-d19d3494d41d_4.webp?auto=compress,format"
+}
+}
+],
+"stock": 11,
+"price": 29
+}
+}
+],
+"version": "c26e0c3",
+"license": "This work is licensed under the Creative Commons Attribution 4.0 International License. To view a copy of this license, visit http://creativecommons.org/licenses/by/4.0/."
+}

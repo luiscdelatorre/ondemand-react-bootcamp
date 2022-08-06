@@ -43,7 +43,7 @@ const CartProduct = ({ item }) => {
       <CardName to={`/product/${id}`}>{ name }</CardName>
       <CardPrice>${ price.toFixed(2) }</CardPrice>
       <CardSubtotal>${ subtotal.toFixed(2) }</CardSubtotal>
-      <RemoveButton type="button" onClick={handleRemove}><TbTrash /></RemoveButton>
+      <RemoveButton type="button" onClick={handleRemove} data-testid="remove-button"><TbTrash /></RemoveButton>
       <CardActions>
         {hasStock
           ? <AddToCart type="button" id={ id } stock={ stock } showLabel={false} />

@@ -30,7 +30,7 @@ const CartSummary = ({ totalItems, subtotal }) => {
         <hr />
         <SummaryRow>
           <SummaryTotal><b>Subtotal</b></SummaryTotal>
-          <SummaryTotal><b>${subtotal.toFixed(2)}</b></SummaryTotal>
+          <SummaryTotal><b data-testid="cart-subtotal">${subtotal.toFixed(2)}</b></SummaryTotal>
         </SummaryRow>
       </SummaryTable>
     </Container>

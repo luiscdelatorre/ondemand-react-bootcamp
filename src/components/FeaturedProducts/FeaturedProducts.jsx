@@ -15,11 +15,11 @@ const FeaturedProducts = () => {
       <Title className='section-title'>Featured Products</Title>
       {isLoading
         ? <Loader /> 
-        : <Grid>
-        {products.map((item, index) => (
-          <Card key={`grid-item-${index}`} item={item} />
-        ))}  
-        </Grid>
+        : <Grid data-testid="featured-products" >
+            {products.map((item, index) => (
+              <Card key={`grid-item-${index}`} item={item} />
+            ))}  
+          </Grid>
       }
       <Link to="/products">View all products</Link>
     </Container>

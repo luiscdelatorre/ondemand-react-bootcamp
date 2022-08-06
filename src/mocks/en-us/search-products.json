@@ -1,0 +1,1825 @@
+{
+"page": 1,
+"results_per_page": 20,
+"results_size": 14,
+"total_results_size": 14,
+"total_pages": 1,
+"next_page": null,
+"prev_page": null,
+"results": [
+{
+"id": "YZZiURIAAC8AveYt",
+"uid": null,
+"url": null,
+"type": "product",
+"href": "https://wizeline-academy.cdn.prismic.io/api/v2/documents/search?ref=YZaBvBIAACgAvnOP&q=%5B%5B%3Ad+%3D+at%28document.id%2C+%22YZZiURIAAC8AveYt%22%29+%5D%5D",
+"tags": [
+"Floor mats"
+],
+"first_publication_date": "2021-11-18T14:25:24+0000",
+"last_publication_date": "2021-11-18T14:25:24+0000",
+"slugs": [
+"home-type-mat",
+"tapete-home-type"
+],
+"linked_documents": [],
+"lang": "en-us",
+"alternate_languages": [
+{
+"id": "YZZhshIAACoAveNs",
+"type": "product",
+"lang": "es-mx"
+}
+],
+"data": {
+"name": "Home Type Mat",
+"sku": "1105661459",
+"category": {
+"id": "YWHyYRIAACgAykCq",
+"type": "category",
+"tags": [],
+"lang": "en-us",
+"slug": "decorate",
+"first_publication_date": "2021-10-09T23:32:29+0000",
+"last_publication_date": "2021-11-18T14:27:09+0000",
+"link_type": "Document",
+"isBroken": false
+},
+"mainimage": {
+"dimensions": {
+"width": 696,
+"height": 900
+},
+"alt": "Home Type Mat",
+"copyright": null,
+"url": "https://images.prismic.io/wizeline-academy/6bb1d088-3945-4ebd-96cd-12cf24632647_2.jpeg?auto=compress,format"
+},
+"short_description": "Our mat looks great at home placed on a front porch or outside the back door. The letters sit on a thick, natural coconut background that traps dirt and debris to keep them out where they belong. Naturally durable coconut handwoven. To maintain the durability of the mat, place it in a protected area away from direct sunlight and excessive moisture. Coconut floor mats are great at absorbing moisture and trapping dirt. Coconut is a 100% natural and ecological product that has resistance to mold.",
+"description": [
+{
+"type": "paragraph",
+"text": "Our mat looks great at home placed on a front porch or outside the back door. The letters sit on a thick, natural coconut background that traps dirt and debris to keep them out where they belong. Naturally durable coconut handwoven. To maintain the durability of the mat, place it in a protected area away from direct sunlight and excessive moisture. Coconut floor mats are great at absorbing moisture and trapping dirt. Coconut is a 100% natural and ecological product that has resistance to mold.",
+"spans": []
+}
+],
+"specs": [
+{
+"spec_name": "Color",
+"spec_value": "Multicolor"
+},
+{
+"spec_name": "Collection",
+"spec_value": "Home Type"
+},
+{
+"spec_name": "Product width",
+"spec_value": "45.72 cm"
+},
+{
+"spec_name": "Product height",
+"spec_value": "3.81 cm"
+},
+{
+"spec_name": "Product length",
+"spec_value": "76.20 cm"
+},
+{
+"spec_name": "Care and cleaning instructions",
+"spec_value": "The shedding of loose fibers is normal during the initial month of use. Do not place in direct sunlight. Keep away from excess moisture. Brush or shake to maintain your best appearance. Occasional vacuuming is recommended"
+}
+],
+"images": [
+{
+"image": {
+"dimensions": {
+"width": 696,
+"height": 900
+},
+"alt": null,
+"copyright": null,
+"url": "https://images.prismic.io/wizeline-academy/6bb1d088-3945-4ebd-96cd-12cf24632647_2.jpeg?auto=compress,format"
+}
+},
+{
+"image": {
+"dimensions": {
+"width": 696,
+"height": 900
+},
+"alt": null,
+"copyright": null,
+"url": "https://images.prismic.io/wizeline-academy/b73c610d-500c-4322-95fc-c82e35400202_1.jpeg?auto=compress,format"
+}
+}
+],
+"stock": 8,
+"price": 48
+}
+},
+{
+"id": "YWL-9xIAACwAzu-s",
+"uid": null,
+"url": null,
+"type": "product",
+"href": "https://wizeline-academy.cdn.prismic.io/api/v2/documents/search?ref=YZaBvBIAACgAvnOP&q=%5B%5B%3Ad+%3D+at%28document.id%2C+%22YWL-9xIAACwAzu-s%22%29+%5D%5D",
+"tags": [
+"Living Room",
+"Armchair"
+],
+"first_publication_date": "2021-10-10T14:55:54+0000",
+"last_publication_date": "2021-10-10T14:55:54+0000",
+"slugs": [
+"brown-turner-right-arm-armchair",
+"sillon-brazo-derecho-cafe-turner"
+],
+"linked_documents": [],
+"lang": "en-us",
+"alternate_languages": [
+{
+"id": "YWL-nRIAACsAzu4G",
+"type": "product",
+"lang": "es-mx"
+}
+],
+"data": {
+"name": "Brown Turner Right Arm Armchair",
+"sku": "1051376575",
+"category": {
+"id": "YWHviRIAACsAyjP3",
+"type": "category",
+"tags": [],
+"lang": "en-us",
+"slug": "furniture",
+"first_publication_date": "2021-10-09T23:34:39+0000",
+"last_publication_date": "2021-10-12T23:30:58+0000",
+"link_type": "Document",
+"isBroken": false
+},
+"mainimage": {
+"dimensions": {
+"width": 940,
+"height": 1215
+},
+"alt": "Brown Turner Right Arm Armchair",
+"copyright": null,
+"url": "https://images.prismic.io/wizeline-academy/cd98a680-c834-43bd-86e4-478697e4eb7d_1.webp?auto=compress,format"
+},
+"short_description": "Comfort meets quality. With his high back, thick arms, and stuffed cushions, Turner is one of our most comfortable collections. It has soft cushions with 100% polyester, the wooden frame is kiln dried.",
+"description": [
+{
+"type": "paragraph",
+"text": "Comfort meets quality. With his high back, thick arms, and stuffed cushions, Turner is one of our most comfortable collections. It has soft cushions with 100% polyester, the wooden frame is kiln dried, and has hand-tied steel springs for shock-absorbing support. It has adjustable levelers that provide stability on uneven floors. The skin will clarify and soften with use and time, it is also a natural product. Variation in color and texture are inherent to each skin; No two pieces are exactly the same. This room does not have the decorative tacks. All pieces in this modular room are sold separately.",
+"spans": []
+}
+],
+"specs": [
+{
+"spec_name": "Color",
+"spec_value": "Brown"
+}
+],
+"images": [
+{
+"image": {
+"dimensions": {
+"width": 940,
+"height": 1215
+},
+"alt": null,
+"copyright": null,
+"url": "https://images.prismic.io/wizeline-academy/cd98a680-c834-43bd-86e4-478697e4eb7d_1.webp?auto=compress,format"
+}
+},
+{
+"image": {
+"dimensions": {
+"width": 940,
+"height": 1215
+},
+"alt": null,
+"copyright": null,
+"url": "https://images.prismic.io/wizeline-academy/7bb20e36-0cae-4a9d-acb2-e097b011bb02_2.webp?auto=compress,format"
+}
+},
+{
+"image": {
+"dimensions": {
+"width": 940,
+"height": 1215
+},
+"alt": null,
+"copyright": null,
+"url": "https://images.prismic.io/wizeline-academy/87b3e260-7a20-467a-97d2-e18215df04fd_3.webp?auto=compress,format"
+}
+}
+],
+"stock": 9,
+"price": 1110.38
+}
+},
+{
+"id": "YWJI7hIAACkAy8Cv",
+"uid": null,
+"url": null,
+"type": "product",
+"href": "https://wizeline-academy.cdn.prismic.io/api/v2/documents/search?ref=YZaBvBIAACgAvnOP&q=%5B%5B%3Ad+%3D+at%28document.id%2C+%22YWJI7hIAACkAy8Cv%22%29+%5D%5D",
+"tags": [
+"Living Room",
+"Sofa"
+],
+"first_publication_date": "2021-10-10T01:59:13+0000",
+"last_publication_date": "2021-10-10T02:31:47+0000",
+"slugs": [
+"chesterfield-sofa-dark-brown",
+"sofa-chesterfield-cafe-obscuro"
+],
+"linked_documents": [],
+"lang": "en-us",
+"alternate_languages": [
+{
+"id": "YWJIfhIAACkAy77B",
+"type": "product",
+"lang": "es-mx"
+}
+],
+"data": {
+"name": "Chesterfield Sofa Dark Brown",
+"sku": "1078230319",
+"category": {
+"id": "YWHviRIAACsAyjP3",
+"type": "category",
+"tags": [],
+"lang": "en-us",
+"slug": "furniture",
+"first_publication_date": "2021-10-09T23:34:39+0000",
+"last_publication_date": "2021-10-12T23:30:58+0000",
+"link_type": "Document",
+"isBroken": false
+},
+"mainimage": {
+"dimensions": {
+"width": 696,
+"height": 900
+},
+"alt": "Chesterfield Sofa Dark Brown",
+"copyright": null,
+"url": "https://images.prismic.io/wizeline-academy/83a43c82-a49c-4edc-b2e9-743e41a9849a_1.webp?auto=compress,format"
+},
+"short_description": "With its cozy arms and deeply padded upholstery, the Chesterfield collection is synonymous with comfort. Our leather sofas retain all the fine points of the Edwardian originals, creating the perfect furniture for relaxation.",
+"description": [
+{
+"type": "paragraph",
+"text": "With its cozy arms and deeply padded upholstery, the Chesterfield collection is synonymous with comfort. Our leather sofas retain all the fine points of the Edwardian originals, creating the perfect furniture for relaxation. Roller-shaped arms. The cushions are wrapped in polyester, which gives it a firmer feel. With reinforced corner pieces and box-and-tenon joints that give it exceptional structural integrity. Steel anti-sag springs provide cushioned support. The loose cushions are removable. Features button tufts along the arms and seat back. The removable legs are finished in brown. Adjustable levelers stabilize the cabinet even on uneven floors. The skin will clear and soften with use.",
+"spans": []
+}
+],
+"specs": [
+{
+"spec_name": "Product Height",
+"spec_value": "77.47 cm"
+},
+{
+"spec_name": "Product width",
+"spec_value": "2.18 m"
+},
+{
+"spec_name": "Material",
+"spec_value": "Leather"
+},
+{
+"spec_name": "Care and Cleaning Instructions",
+"spec_value": "Avoid direct sunlight and heat"
+}
+],
+"images": [
+{
+"image": {
+"dimensions": {
+"width": 696,
+"height": 900
+},
+"alt": null,
+"copyright": null,
+"url": "https://images.prismic.io/wizeline-academy/83a43c82-a49c-4edc-b2e9-743e41a9849a_1.webp?auto=compress,format"
+}
+},
+{
+"image": {
+"dimensions": {
+"width": 696,
+"height": 900
+},
+"alt": null,
+"copyright": null,
+"url": "https://images.prismic.io/wizeline-academy/41374d14-fe39-493a-a38b-50f2d83f65b4_3.webp?auto=compress,format"
+}
+},
+{
+"image": {
+"dimensions": {
+"width": 696,
+"height": 900
+},
+"alt": null,
+"copyright": null,
+"url": "https://images.prismic.io/wizeline-academy/b09c7fea-3169-4300-87fe-1d9b5943e90e_4.jpeg?auto=compress,format"
+}
+},
+{
+"image": {
+"dimensions": {
+"width": 696,
+"height": 900
+},
+"alt": null,
+"copyright": null,
+"url": "https://images.prismic.io/wizeline-academy/0c9befff-bc9f-490b-aef2-780b0e576e89_5.webp?auto=compress,format"
+}
+},
+{
+"image": {
+"dimensions": {
+"width": 696,
+"height": 900
+},
+"alt": null,
+"copyright": null,
+"url": "https://images.prismic.io/wizeline-academy/101604fe-2570-45b0-a919-ecee8392bb07_6.jpeg?auto=compress,format"
+}
+},
+{
+"image": {
+"dimensions": {
+"width": 940,
+"height": 1215
+},
+"alt": null,
+"copyright": null,
+"url": "https://images.prismic.io/wizeline-academy/1d7ac3f8-5a9a-4a97-b8ef-21176e3838d4_7.jpeg?auto=compress,format"
+}
+}
+],
+"stock": 3,
+"price": 4007.15
+}
+},
+{
+"id": "YWMCzxIAACkAzwFP",
+"uid": null,
+"url": null,
+"type": "product",
+"href": "https://wizeline-academy.cdn.prismic.io/api/v2/documents/search?ref=YZaBvBIAACgAvnOP&q=%5B%5B%3Ad+%3D+at%28document.id%2C+%22YWMCzxIAACkAzwFP%22%29+%5D%5D",
+"tags": [
+"Living Room",
+"Armchair"
+],
+"first_publication_date": "2021-10-10T15:12:18+0000",
+"last_publication_date": "2021-10-10T15:12:18+0000",
+"slugs": [
+"thatcher-armchair",
+"sillon-thatcher"
+],
+"linked_documents": [],
+"lang": "en-us",
+"alternate_languages": [
+{
+"id": "YWMCVBIAAC0Azv8g",
+"type": "product",
+"lang": "es-mx"
+}
+],
+"data": {
+"name": "Thatcher Armchair",
+"sku": "1091702718",
+"category": {
+"id": "YWHviRIAACsAyjP3",
+"type": "category",
+"tags": [],
+"lang": "en-us",
+"slug": "furniture",
+"first_publication_date": "2021-10-09T23:34:39+0000",
+"last_publication_date": "2021-10-12T23:30:58+0000",
+"link_type": "Document",
+"isBroken": false
+},
+"mainimage": {
+"dimensions": {
+"width": 696,
+"height": 900
+},
+"alt": "Thatcher Armchair",
+"copyright": null,
+"url": "https://images.prismic.io/wizeline-academy/de78ba20-fbd5-45d6-92ef-8d7d6f55d2ad_1.webp?auto=compress,format"
+},
+"short_description": "The winged back chairs created by Thomas Chippendale in the 18th century were defined by their camel backs, oversized wings, and round arms.",
+"description": [
+{
+"type": "paragraph",
+"text": "The winged back chairs created by Thomas Chippendale in the 18th century were defined by their camel backs, oversized wings, and round arms. Our interpretation preserves all the fine points of the originals, creating an armchair that is destined to become an heirloom. Features attractive nail head details. The legs are a fixed part of the frame and are finished in espresso. Block corner frame with mortise and tenon joinery provides exceptional structural integrity. Sinuous, non-sag steel springs provide shock absorbing support. Adjustable levelers provide stability on uneven floors.",
+"spans": []
+}
+],
+"specs": [
+{
+"spec_name": "Product width",
+"spec_value": "78.74 cm"
+},
+{
+"spec_name": "Product Height",
+"spec_value": "1.04 m"
+},
+{
+"spec_name": "Product depth",
+"spec_value": "88.90 cm"
+},
+{
+"spec_name": "Product Weight",
+"spec_value": "23 kg"
+},
+{
+"spec_name": "Material",
+"spec_value": "Leather"
+}
+],
+"images": [
+{
+"image": {
+"dimensions": {
+"width": 696,
+"height": 900
+},
+"alt": null,
+"copyright": null,
+"url": "https://images.prismic.io/wizeline-academy/de78ba20-fbd5-45d6-92ef-8d7d6f55d2ad_1.webp?auto=compress,format"
+}
+},
+{
+"image": {
+"dimensions": {
+"width": 696,
+"height": 900
+},
+"alt": null,
+"copyright": null,
+"url": "https://images.prismic.io/wizeline-academy/3b5d6134-ae1c-48ee-b087-39cbed10db9f_2.webp?auto=compress,format"
+}
+}
+],
+"stock": 6,
+"price": 1931.13
+}
+},
+{
+"id": "YWI7PRIAACsAy4Po",
+"uid": null,
+"url": null,
+"type": "product",
+"href": "https://wizeline-academy.cdn.prismic.io/api/v2/documents/search?ref=YZaBvBIAACgAvnOP&q=%5B%5B%3Ad+%3D+at%28document.id%2C+%22YWI7PRIAACsAy4Po%22%29+%5D%5D",
+"tags": [
+"Bedroom",
+"Drawers"
+],
+"first_publication_date": "2021-10-10T01:00:50+0000",
+"last_publication_date": "2021-10-10T02:27:06+0000",
+"slugs": [
+"oakleigh-chest-of-drawers",
+"oakleigh-drawer",
+"comoda-oakleigh"
+],
+"linked_documents": [],
+"lang": "en-us",
+"alternate_languages": [
+{
+"id": "YWI6kRIAACwAy4D0",
+"type": "product",
+"lang": "es-mx"
+}
+],
+"data": {
+"name": "Oakleigh Chest of Drawers",
+"sku": "1102666425",
+"category": {
+"id": "YWHviRIAACsAyjP3",
+"type": "category",
+"tags": [],
+"lang": "en-us",
+"slug": "furniture",
+"first_publication_date": "2021-10-09T23:34:39+0000",
+"last_publication_date": "2021-10-12T23:30:58+0000",
+"link_type": "Document",
+"isBroken": false
+},
+"mainimage": {
+"dimensions": {
+"width": 696,
+"height": 900
+},
+"alt": "Oakleigh Chest of Drawers",
+"copyright": null,
+"url": "https://images.prismic.io/wizeline-academy/3facc285-8805-4f57-b812-10eb37cd4fac_1.webp?auto=compress,format"
+},
+"short_description": "Modern lines and rustic charms intersect in our new Oakleigh collection. Made in India, the slim silhouette and low profile of this dresser bring a new perspective to the classic bedroom design.",
+"description": [
+{
+"type": "paragraph",
+"text": "Modern lines and rustic charms intersect in our new Oakleigh collection. Made in India, the slim silhouette and low profile of this dresser bring a new perspective to the classic bedroom design. Seven drawers give elegant order to clothes and sheets. Made of mango wood and birch MDF. The chest of drawers has 3 smaller drawers on top and 4 roomy drawers. Iron drawer handles with black finish. MDF is a wood composed of fibers that provides exceptional strength and ensures the structural integrity of the product over time. Drawers feature French cut dovetail joinery and metal hafele ball bearing drawer glides, ensuring smooth movement. Adjustable levelers provide stability on uneven floors.",
+"spans": []
+}
+],
+"specs": [
+{
+"spec_name": "Product width",
+"spec_value": "144 cm"
+},
+{
+"spec_name": "Product Weight",
+"spec_value": "88.8 kg"
+},
+{
+"spec_name": "Depth",
+"spec_value": "50.8 cm"
+}
+],
+"images": [
+{
+"image": {
+"dimensions": {
+"width": 696,
+"height": 900
+},
+"alt": null,
+"copyright": null,
+"url": "https://images.prismic.io/wizeline-academy/3facc285-8805-4f57-b812-10eb37cd4fac_1.webp?auto=compress,format"
+}
+},
+{
+"image": {
+"dimensions": {
+"width": 696,
+"height": 900
+},
+"alt": null,
+"copyright": null,
+"url": "https://images.prismic.io/wizeline-academy/cc363724-5028-4294-a279-2debc076374d_2.jpeg?auto=compress,format"
+}
+},
+{
+"image": {
+"dimensions": {
+"width": 696,
+"height": 900
+},
+"alt": null,
+"copyright": null,
+"url": "https://images.prismic.io/wizeline-academy/fb748e89-5d8f-49c4-83ed-727db66cb51f_3.jpeg?auto=compress,format"
+}
+},
+{
+"image": {
+"dimensions": {
+"width": 696,
+"height": 900
+},
+"alt": null,
+"copyright": null,
+"url": "https://images.prismic.io/wizeline-academy/9f464240-695a-4361-bcab-ec6462c3bf53_4.webp?auto=compress,format"
+}
+},
+{
+"image": {
+"dimensions": {
+"width": 696,
+"height": 900
+},
+"alt": null,
+"copyright": null,
+"url": "https://images.prismic.io/wizeline-academy/0697683e-1b15-4ddd-92e2-623c6b8107d8_5.jpeg?auto=compress,format"
+}
+}
+],
+"stock": 2,
+"price": 2124.25
+}
+},
+{
+"id": "YWI-tRIAACgAy5NW",
+"uid": null,
+"url": null,
+"type": "product",
+"href": "https://wizeline-academy.cdn.prismic.io/api/v2/documents/search?ref=YZaBvBIAACgAvnOP&q=%5B%5B%3Ad+%3D+at%28document.id%2C+%22YWI-tRIAACgAy5NW%22%29+%5D%5D",
+"tags": [
+"Bedroom",
+"Nightstand"
+],
+"first_publication_date": "2021-10-10T01:15:37+0000",
+"last_publication_date": "2021-10-10T02:28:31+0000",
+"slugs": [
+"oakleigh-nightstand",
+"buro-oakleigh"
+],
+"linked_documents": [],
+"lang": "en-us",
+"alternate_languages": [
+{
+"id": "YWI-RxIAAC4Ay5Fp",
+"type": "product",
+"lang": "es-mx"
+}
+],
+"data": {
+"name": "Oakleigh Nightstand",
+"sku": "1102666212",
+"category": {
+"id": "YWHviRIAACsAyjP3",
+"type": "category",
+"tags": [],
+"lang": "en-us",
+"slug": "furniture",
+"first_publication_date": "2021-10-09T23:34:39+0000",
+"last_publication_date": "2021-10-12T23:30:58+0000",
+"link_type": "Document",
+"isBroken": false
+},
+"mainimage": {
+"dimensions": {
+"width": 696,
+"height": 900
+},
+"alt": "Oakleigh Nightstand",
+"copyright": null,
+"url": "https://images.prismic.io/wizeline-academy/a9760ba4-ea52-4152-be51-02648cd56b76_1.webp?auto=compress,format"
+},
+"short_description": "Modern lines and rustic charms intersect in our new Oakleigh collection. Made in India, the sleek silhouette and low profile of this bureau bring a new perspective to classic bedroom design.",
+"description": [
+{
+"type": "paragraph",
+"text": "Modern lines and rustic charms intersect in our new Oakleigh collection. Made in India, the sleek silhouette and low profile of this bureau bring a new perspective to classic bedroom design. An open shelf and bottom drawer add elegant order to your nighttime essentials. Made of mango wood and birch MDF. Features 1 drawer and 1 shelf for additional storage. Iron drawer handles with black finish. MDF is a wood composed of fibers that provides exceptional strength and ensures the structural integrity of the product over time. Drawers feature French cut dovetail joinery and metal hafele ball bearing drawer glides, ensuring smooth movement. Adjustable levelers provide stability on uneven floors.",
+"spans": []
+}
+],
+"specs": [
+{
+"spec_name": "Product Height",
+"spec_value": "61 cm"
+},
+{
+"spec_name": "Product width",
+"spec_value": "63.5 cm"
+},
+{
+"spec_name": "Legs Material",
+"spec_value": "Wood"
+},
+{
+"spec_name": "Depth",
+"spec_value": "45.72 cm"
+}
+],
+"images": [
+{
+"image": {
+"dimensions": {
+"width": 696,
+"height": 900
+},
+"alt": null,
+"copyright": null,
+"url": "https://images.prismic.io/wizeline-academy/a9760ba4-ea52-4152-be51-02648cd56b76_1.webp?auto=compress,format"
+}
+},
+{
+"image": {
+"dimensions": {
+"width": 696,
+"height": 900
+},
+"alt": null,
+"copyright": null,
+"url": "https://images.prismic.io/wizeline-academy/b68bba90-109b-446d-afe4-a81b12dd84a4_2.webp?auto=compress,format"
+}
+},
+{
+"image": {
+"dimensions": {
+"width": 696,
+"height": 900
+},
+"alt": null,
+"copyright": null,
+"url": "https://images.prismic.io/wizeline-academy/9a2b3617-9835-4087-94d6-388628f9d4ac_3.webp?auto=compress,format"
+}
+},
+{
+"image": {
+"dimensions": {
+"width": 696,
+"height": 900
+},
+"alt": null,
+"copyright": null,
+"url": "https://images.prismic.io/wizeline-academy/a42ac4b6-15a6-4b6e-8d9c-5922b39cb200_4.webp?auto=compress,format"
+}
+},
+{
+"image": {
+"dimensions": {
+"width": 696,
+"height": 900
+},
+"alt": null,
+"copyright": null,
+"url": "https://images.prismic.io/wizeline-academy/fbb3337f-cecc-41b5-8eb0-6b13a89bffd5_5.webp?auto=compress,format"
+}
+},
+{
+"image": {
+"dimensions": {
+"width": 696,
+"height": 900
+},
+"alt": null,
+"copyright": null,
+"url": "https://images.prismic.io/wizeline-academy/e3327376-503b-4595-a17f-e31f5997afcb_6.webp?auto=compress,format"
+}
+}
+],
+"stock": 14,
+"price": 627.59
+}
+},
+{
+"id": "YWI2ZRIAACwAy257",
+"uid": null,
+"url": null,
+"type": "product",
+"href": "https://wizeline-academy.cdn.prismic.io/api/v2/documents/search?ref=YZaBvBIAACgAvnOP&q=%5B%5B%3Ad+%3D+at%28document.id%2C+%22YWI2ZRIAACwAy257%22%29+%5D%5D",
+"tags": [
+"Bedroom",
+"Bed"
+],
+"first_publication_date": "2021-10-10T00:40:18+0000",
+"last_publication_date": "2021-10-10T02:25:38+0000",
+"slugs": [
+"linwood-king-size-bed",
+"cama-linwood-king-size"
+],
+"linked_documents": [],
+"lang": "en-us",
+"alternate_languages": [
+{
+"id": "YWI16hIAAC0Ay2xd",
+"type": "product",
+"lang": "es-mx"
+}
+],
+"data": {
+"name": "Linwood King Size Bed",
+"sku": "1082380520",
+"category": {
+"id": "YWHviRIAACsAyjP3",
+"type": "category",
+"tags": [],
+"lang": "en-us",
+"slug": "furniture",
+"first_publication_date": "2021-10-09T23:34:39+0000",
+"last_publication_date": "2021-10-12T23:30:58+0000",
+"link_type": "Document",
+"isBroken": false
+},
+"mainimage": {
+"dimensions": {
+"width": 696,
+"height": 900
+},
+"alt": "Linwood King Size Bed",
+"copyright": null,
+"url": "https://images.prismic.io/wizeline-academy/2b009745-b37e-42cd-a868-9f09cdcd287f_1.webp?auto=compress,format"
+},
+"short_description": "Clean, straight lines give our Linwood Collection an attractive, straightforward style. The finish is detailed with contrasting vintage hardware for a nod to a vintage aesthetic.",
+"description": [
+{
+"type": "paragraph",
+"text": "Clean, straight lines give our Linwood Collection an attractive, straightforward style. The finish is detailed with contrasting vintage hardware for a nod to a vintage aesthetic. The bed sits close to the floor and features a thick footboard and upholstered headboard. Crafted from solid Meranti wood and Sungkai veneers with an upholstered panel. Features a hand-applied finish. Using veneers results in high-quality furniture that has flawless surfaces and consistent color tones that will not crack. All wood is kiln dried, a process that ensures furniture will never split, warp, crack or mold. The slat support system makes the use of a boxspring optional.",
+"spans": []
+}
+],
+"specs": [
+{
+"spec_name": "Product Height",
+"spec_value": "1.43 m"
+},
+{
+"spec_name": "Product Width",
+"spec_value": "2.03 m"
+},
+{
+"spec_name": "Depth",
+"spec_value": "2.22 m"
+},
+{
+"spec_name": "Weight",
+"spec_value": "97.06 kg"
+},
+{
+"spec_name": "Material",
+"spec_value": "Wood"
+},
+{
+"spec_name": "Color",
+"spec_value": "Light Brown"
+}
+],
+"images": [
+{
+"image": {
+"dimensions": {
+"width": 696,
+"height": 900
+},
+"alt": null,
+"copyright": null,
+"url": "https://images.prismic.io/wizeline-academy/2b009745-b37e-42cd-a868-9f09cdcd287f_1.webp?auto=compress,format"
+}
+},
+{
+"image": {
+"dimensions": {
+"width": 696,
+"height": 900
+},
+"alt": null,
+"copyright": null,
+"url": "https://images.prismic.io/wizeline-academy/3c957a33-1cc1-46de-9540-612cef81de51_3.webp?auto=compress,format"
+}
+},
+{
+"image": {
+"dimensions": {
+"width": 696,
+"height": 900
+},
+"alt": null,
+"copyright": null,
+"url": "https://images.prismic.io/wizeline-academy/ff79c52d-bbeb-4d4b-a842-2b75e683abfd_2.webp?auto=compress,format"
+}
+},
+{
+"image": {
+"dimensions": {
+"width": 696,
+"height": 900
+},
+"alt": null,
+"copyright": null,
+"url": "https://images.prismic.io/wizeline-academy/ba4d7d73-c3e3-4c68-887c-52f2be993960_4.jpeg?auto=compress,format"
+}
+}
+],
+"stock": 6,
+"price": 2269.09
+}
+},
+{
+"id": "YWH4QBIAACkAylrv",
+"uid": null,
+"url": null,
+"type": "product",
+"href": "https://wizeline-academy.cdn.prismic.io/api/v2/documents/search?ref=YZaBvBIAACgAvnOP&q=%5B%5B%3Ad+%3D+at%28document.id%2C+%22YWH4QBIAACkAylrv%22%29+%5D%5D",
+"tags": [
+"Bedroom",
+"Bed"
+],
+"first_publication_date": "2021-10-09T23:17:50+0000",
+"last_publication_date": "2021-10-10T02:22:18+0000",
+"slugs": [
+"livingston-king-size-bed",
+"cama-king-size-livingston"
+],
+"linked_documents": [],
+"lang": "en-us",
+"alternate_languages": [
+{
+"id": "YWH3hRIAACkAylen",
+"type": "product",
+"lang": "es-mx"
+}
+],
+"data": {
+"name": "Livingston King Size Bed",
+"sku": "1062433520",
+"category": {
+"id": "YWHviRIAACsAyjP3",
+"type": "category",
+"tags": [],
+"lang": "en-us",
+"slug": "furniture",
+"first_publication_date": "2021-10-09T23:34:39+0000",
+"last_publication_date": "2021-10-12T23:30:58+0000",
+"link_type": "Document",
+"isBroken": false
+},
+"mainimage": {
+"dimensions": {
+"width": 696,
+"height": 900
+},
+"alt": "Livingston King Size Bed",
+"copyright": null,
+"url": "https://images.prismic.io/wizeline-academy/aaae79ae-dbff-4a7a-9160-b975e478b252_1.webp?auto=compress,format"
+},
+"short_description": "The wood knots, texture and finish of the Livingston bed give it a worn and elegant look that looks classic in the room. Crafted from solid meranti wood with MDF and Sungkai veneers.",
+"description": [
+{
+"type": "paragraph",
+"text": "The wood knots, texture and finish of the Livingston bed give it a worn and elegant look that looks classic in the room. Crafted from solid meranti wood with MDF and Sungkai veneers. Features a matte gray wash finish. System of 5 central support legs.",
+"spans": []
+}
+],
+"specs": [
+{
+"spec_name": "Size",
+"spec_value": "King size"
+},
+{
+"spec_name": "Product Height",
+"spec_value": "1.35 m"
+},
+{
+"spec_name": "Product Width",
+"spec_value": "2.17 m"
+},
+{
+"spec_name": "Color",
+"spec_value": "Gray"
+},
+{
+"spec_name": "Material",
+"spec_value": "Wood"
+},
+{
+"spec_name": "Other information",
+"spec_value": "Interior (for mattress): 1.97 m wide x 2.03 m long. Headboard: 1.35 m high x 11.43 cm thick. Footboard: 53 cm high x 7.62 cm thick. Sidebar to floor: 5 '' high. Weight: 65 kg. Illustrative set image"
+}
+],
+"images": [
+{
+"image": {
+"dimensions": {
+"width": 696,
+"height": 900
+},
+"alt": null,
+"copyright": null,
+"url": "https://images.prismic.io/wizeline-academy/ac61832a-6d56-46a9-84b3-a3b888863ffa_2.webp?auto=compress,format"
+}
+},
+{
+"image": {
+"dimensions": {
+"width": 696,
+"height": 900
+},
+"alt": null,
+"copyright": null,
+"url": "https://images.prismic.io/wizeline-academy/1c356ba1-70da-4041-be66-e7c17ec97c39_5.webp?auto=compress,format"
+}
+},
+{
+"image": {
+"dimensions": {
+"width": 696,
+"height": 900
+},
+"alt": null,
+"copyright": null,
+"url": "https://images.prismic.io/wizeline-academy/86f1f52f-3445-4071-abf1-8972c31e8cdf_4.jpeg?auto=compress,format"
+}
+},
+{
+"image": {
+"dimensions": {
+"width": 696,
+"height": 900
+},
+"alt": null,
+"copyright": null,
+"url": "https://images.prismic.io/wizeline-academy/916bfb11-d6c5-43a8-96fc-9b4b53328e26_3.jpeg?auto=compress,format"
+}
+}
+],
+"stock": 3,
+"price": 2075.97
+}
+},
+{
+"id": "YWMEfBIAAC8Azwjd",
+"uid": null,
+"url": null,
+"type": "product",
+"href": "https://wizeline-academy.cdn.prismic.io/api/v2/documents/search?ref=YZaBvBIAACgAvnOP&q=%5B%5B%3Ad+%3D+at%28document.id%2C+%22YWMEfBIAAC8Azwjd%22%29+%5D%5D",
+"tags": [
+"Living Room",
+"Sofa"
+],
+"first_publication_date": "2021-10-10T15:19:27+0000",
+"last_publication_date": "2021-10-10T15:19:27+0000",
+"slugs": [
+"pearce-modular-sofa-left-arm",
+"sofa-modular-pearce-brazo-izquierdo"
+],
+"linked_documents": [],
+"lang": "en-us",
+"alternate_languages": [
+{
+"id": "YWMEABIAACwAzwau",
+"type": "product",
+"lang": "es-mx"
+}
+],
+"data": {
+"name": "Pearce Modular Sofa Left Arm",
+"sku": "1106697601",
+"category": {
+"id": "YWHviRIAACsAyjP3",
+"type": "category",
+"tags": [],
+"lang": "en-us",
+"slug": "furniture",
+"first_publication_date": "2021-10-09T23:34:39+0000",
+"last_publication_date": "2021-10-12T23:30:58+0000",
+"link_type": "Document",
+"isBroken": false
+},
+"mainimage": {
+"dimensions": {
+"width": 696,
+"height": 900
+},
+"alt": "Pearce Modular Sofa Left Arm",
+"copyright": null,
+"url": "https://images.prismic.io/wizeline-academy/2c9c96f1-eb77-4eca-91ad-ae6666ee0d27_1.webp?auto=compress,format"
+},
+"short_description": "The exceptional versatility of our Pearce collection allows you to create an intimate conversation area or a spacious seating arrangement. Distinguished by its generous rolled arms and bound seams, this modular room has a luxurious feel.",
+"description": [
+{
+"type": "paragraph",
+"text": "The exceptional versatility of our Pearce collection allows you to create an intimate conversation area or a spacious seating arrangement. Distinguished by its generous rolled arms and bound seams, this modular room has a luxurious feel. It has a curved arm. The removable legs are square tapered and finished in Espresso. The seat cushions are loose. Wood frame with mortise and tenon joinery provides exceptional structural integrity. Winding steel springs provide cushion support. Hidden steel connectors hold modular parts together securely. Adjustable levelers provide stability on uneven floors.",
+"spans": []
+}
+],
+"specs": [
+{
+"spec_name": "Additional accessories",
+"spec_value": "Includes 4 seat cushions and 5 back cushions"
+},
+{
+"spec_name": "Leg shape",
+"spec_value": "Square"
+},
+{
+"spec_name": "Number of pieces",
+"spec_value": "3"
+},
+{
+"spec_name": "Collection",
+"spec_value": "Pearce"
+},
+{
+"spec_name": "Product width",
+"spec_value": "307.34 cm"
+},
+{
+"spec_name": "Product Height",
+"spec_value": "96.52 cm"
+},
+{
+"spec_name": "Product depth",
+"spec_value": "226.06 cm"
+}
+],
+"images": [
+{
+"image": {
+"dimensions": {
+"width": 696,
+"height": 900
+},
+"alt": null,
+"copyright": null,
+"url": "https://images.prismic.io/wizeline-academy/2c9c96f1-eb77-4eca-91ad-ae6666ee0d27_1.webp?auto=compress,format"
+}
+},
+{
+"image": {
+"dimensions": {
+"width": 696,
+"height": 900
+},
+"alt": null,
+"copyright": null,
+"url": "https://images.prismic.io/wizeline-academy/dae980b8-d18c-438c-907b-02b117888d42_2.webp?auto=compress,format"
+}
+}
+],
+"stock": 4,
+"price": 4827.91
+}
+},
+{
+"id": "YWJKhBIAACkAy8ew",
+"uid": null,
+"url": null,
+"type": "product",
+"href": "https://wizeline-academy.cdn.prismic.io/api/v2/documents/search?ref=YZaBvBIAACgAvnOP&q=%5B%5B%3Ad+%3D+at%28document.id%2C+%22YWJKhBIAACkAy8ew%22%29+%5D%5D",
+"tags": [
+"Living Room",
+"Armchair"
+],
+"first_publication_date": "2021-10-10T02:06:01+0000",
+"last_publication_date": "2021-10-10T02:32:29+0000",
+"slugs": [
+"tyler-poly-reclining-leather-armchair",
+"sillon-de-piel-reclinable-tyler-poly"
+],
+"linked_documents": [],
+"lang": "en-us",
+"alternate_languages": [
+{
+"id": "YWJKIRIAAC4Ay8X8",
+"type": "product",
+"lang": "es-mx"
+}
+],
+"data": {
+"name": "Tyler Poly Reclining Leather Armchair",
+"sku": "1066982170",
+"category": {
+"id": "YWHviRIAACsAyjP3",
+"type": "category",
+"tags": [],
+"lang": "en-us",
+"slug": "furniture",
+"first_publication_date": "2021-10-09T23:34:39+0000",
+"last_publication_date": "2021-10-12T23:30:58+0000",
+"link_type": "Document",
+"isBroken": false
+},
+"mainimage": {
+"dimensions": {
+"width": 696,
+"height": 900
+},
+"alt": "Tyler Poly Reclining Leather Armchair",
+"copyright": null,
+"url": "https://images.prismic.io/wizeline-academy/6b30b79d-12c6-4411-9808-2f629d141afe_1.webp?auto=compress,format"
+},
+"short_description": "Nail head accents accentuate the sophisticated profile of this recliner. Caps at the end of the arms complement the graphic frame.",
+"description": [
+{
+"type": "paragraph",
+"text": "Nail head accents accentuate the sophisticated profile of this recliner. Caps at the end of the arms complement the graphic frame. It's a piece that blends well with other styles while adding a clean, updated look to a room. Flame retardant-free cushions are wrapped in feather blends for a softer feel. The cushion is supported by steel springs that do not sag. Adjustable levelers provide stability on uneven floors. Premium quality, aniline dyed, the skin will soften and lighten with use and age, developing an elegant patina. Leather is a natural product. Variations in color and texture are inherent to each skin; no two pieces are exactly alike. This collection is available upholstered and in leather.",
+"spans": []
+}
+],
+"specs": [
+{
+"spec_name": "Dimensions",
+"spec_value": "General (vertical): 77.47 cm width x 92.71 cm depth x 96.52 cm height General (fully reclined): 77.47 cm width x 137.16 cm depth x 71.75 cm height Seat Depth (interior seat vertical): 55.88 cm Seat Depth (Inner Seat Reclined): 95.88 cm Depth.\""
+}
+],
+"images": [
+{
+"image": {
+"dimensions": {
+"width": 696,
+"height": 900
+},
+"alt": null,
+"copyright": null,
+"url": "https://images.prismic.io/wizeline-academy/6b30b79d-12c6-4411-9808-2f629d141afe_1.webp?auto=compress,format"
+}
+},
+{
+"image": {
+"dimensions": {
+"width": 696,
+"height": 900
+},
+"alt": null,
+"copyright": null,
+"url": "https://images.prismic.io/wizeline-academy/19f55831-0fe7-4edb-9ec2-f9c36d96e794_2.webp?auto=compress,format"
+}
+},
+{
+"image": {
+"dimensions": {
+"width": 696,
+"height": 900
+},
+"alt": null,
+"copyright": null,
+"url": "https://images.prismic.io/wizeline-academy/f3a12c69-d72c-4f9d-a1f8-30aafdd99ab3_3.webp?auto=compress,format"
+}
+},
+{
+"image": {
+"dimensions": {
+"width": 696,
+"height": 900
+},
+"alt": null,
+"copyright": null,
+"url": "https://images.prismic.io/wizeline-academy/88726a94-ce05-4187-a826-c00f4bcc4a2b_4.jpeg?auto=compress,format"
+}
+},
+{
+"image": {
+"dimensions": {
+"width": 696,
+"height": 900
+},
+"alt": null,
+"copyright": null,
+"url": "https://images.prismic.io/wizeline-academy/949c4996-5949-4ce9-a714-3c83562b4708_5.jpeg?auto=compress,format"
+}
+}
+],
+"stock": 5,
+"price": 2124.25
+}
+},
+{
+"id": "YWI42hIAACwAy3ld",
+"uid": null,
+"url": null,
+"type": "product",
+"href": "https://wizeline-academy.cdn.prismic.io/api/v2/documents/search?ref=YZaBvBIAACgAvnOP&q=%5B%5B%3Ad+%3D+at%28document.id%2C+%22YWI42hIAACwAy3ld%22%29+%5D%5D",
+"tags": [
+"Bedroom",
+"Nightstand"
+],
+"first_publication_date": "2021-10-10T00:50:38+0000",
+"last_publication_date": "2021-10-10T02:26:21+0000",
+"slugs": [
+"lindwood-nightstand",
+"buro-lindwood"
+],
+"linked_documents": [],
+"lang": "en-us",
+"alternate_languages": [
+{
+"id": "YWI4KxIAACkAy3ZR",
+"type": "product",
+"lang": "es-mx"
+}
+],
+"data": {
+"name": "Lindwood Nightstand",
+"sku": "1078053433",
+"category": {
+"id": "YWHviRIAACsAyjP3",
+"type": "category",
+"tags": [],
+"lang": "en-us",
+"slug": "furniture",
+"first_publication_date": "2021-10-09T23:34:39+0000",
+"last_publication_date": "2021-10-12T23:30:58+0000",
+"link_type": "Document",
+"isBroken": false
+},
+"mainimage": {
+"dimensions": {
+"width": 696,
+"height": 900
+},
+"alt": "Lindwood Nightstand",
+"copyright": null,
+"url": "https://images.prismic.io/wizeline-academy/59064fa0-81a2-41b2-9d28-7b8bd265e244_1.webp?auto=compress,format"
+},
+"short_description": "Its straight and simple lines give our Linwood collection an attractive and direct style. With its off-white finish and antique hardware details, this bureau offers contrast and a vintage touch.",
+"description": [
+{
+"type": "paragraph",
+"text": "Its straight and simple lines give our Linwood collection an attractive and direct style. With its off-white finish and antique hardware details, this bureau offers contrast and a vintage touch. Handcrafted from solid Meranti wood, Sungkai veneers and MDF. Hand applied off white finish. Metal hardware has an antique finish. Drawers feature English dovetail assembly. All wood is kiln dried, a process that ensures furniture never split, warp, crack or mold. The bureau has three spacious drawers to store things.",
+"spans": []
+}
+],
+"specs": [
+{
+"spec_name": "Dimensions",
+"spec_value": "General: 71 cm wide x 43 cm deep x 76 cm high. Drawer interior: 56 cm wide x 32 cm deep x 11.50 cm high. Space from floor to bottom of shelf: 9 cm high. Drawer weight capacity: 5.60 kg. Weight: 28 kg \""
+},
+{
+"spec_name": "Care and Cleaning Instructions",
+"spec_value": "Wipe clean with a soft, dry cloth. Wipe up spills immediately with a clean, dry cloth. Avoid using furniture polishes"
+},
+{
+"spec_name": "Material",
+"spec_value": "Wood"
+}
+],
+"images": [
+{
+"image": {
+"dimensions": {
+"width": 696,
+"height": 900
+},
+"alt": null,
+"copyright": null,
+"url": "https://images.prismic.io/wizeline-academy/59064fa0-81a2-41b2-9d28-7b8bd265e244_1.webp?auto=compress,format"
+}
+},
+{
+"image": {
+"dimensions": {
+"width": 696,
+"height": 900
+},
+"alt": null,
+"copyright": null,
+"url": "https://images.prismic.io/wizeline-academy/4b6d549e-57e4-45b9-bec1-f68a1aa83214_2.webp?auto=compress,format"
+}
+},
+{
+"image": {
+"dimensions": {
+"width": 696,
+"height": 900
+},
+"alt": null,
+"copyright": null,
+"url": "https://images.prismic.io/wizeline-academy/9f957c8b-e0e7-4c21-be8e-5e19475f04d1_3.webp?auto=compress,format"
+}
+},
+{
+"image": {
+"dimensions": {
+"width": 696,
+"height": 900
+},
+"alt": null,
+"copyright": null,
+"url": "https://images.prismic.io/wizeline-academy/12904645-78b3-43b8-8208-34bfb116bec5_4.jpeg?auto=compress,format"
+}
+},
+{
+"image": {
+"dimensions": {
+"width": 696,
+"height": 900
+},
+"alt": null,
+"copyright": null,
+"url": "https://images.prismic.io/wizeline-academy/b4b3b0b3-bc09-4e43-82f9-68dd8c706f42_5.webp?auto=compress,format"
+}
+},
+{
+"image": {
+"dimensions": {
+"width": 696,
+"height": 900
+},
+"alt": null,
+"copyright": null,
+"url": "https://images.prismic.io/wizeline-academy/433b925d-64eb-44b5-ad0f-b8ae02748391_6.webp?auto=compress,format"
+}
+},
+{
+"image": {
+"dimensions": {
+"width": 696,
+"height": 900
+},
+"alt": null,
+"copyright": null,
+"url": "https://images.prismic.io/wizeline-academy/ca95bf99-0cca-44bf-92e7-03aa0f0261dc_7.jpeg?auto=compress,format"
+}
+}
+],
+"stock": 7,
+"price": 820.7
+}
+},
+{
+"id": "YWI85BIAAC8Ay4tB",
+"uid": null,
+"url": null,
+"type": "product",
+"href": "https://wizeline-academy.cdn.prismic.io/api/v2/documents/search?ref=YZaBvBIAACgAvnOP&q=%5B%5B%3Ad+%3D+at%28document.id%2C+%22YWI85BIAAC8Ay4tB%22%29+%5D%5D",
+"tags": [
+"Bedroom",
+"Drawers"
+],
+"first_publication_date": "2021-10-10T01:07:57+0000",
+"last_publication_date": "2021-10-10T02:27:56+0000",
+"slugs": [
+"lindwood-chest-of-drawers",
+"comoda-lindwood"
+],
+"linked_documents": [],
+"lang": "en-us",
+"alternate_languages": [
+{
+"id": "YWI8ShIAACgAy4iT",
+"type": "product",
+"lang": "es-mx"
+}
+],
+"data": {
+"name": "Lindwood Chest of Drawers",
+"sku": "1078046607",
+"category": {
+"id": "YWHviRIAACsAyjP3",
+"type": "category",
+"tags": [],
+"lang": "en-us",
+"slug": "furniture",
+"first_publication_date": "2021-10-09T23:34:39+0000",
+"last_publication_date": "2021-10-12T23:30:58+0000",
+"link_type": "Document",
+"isBroken": false
+},
+"mainimage": {
+"dimensions": {
+"width": 696,
+"height": 900
+},
+"alt": "Lindwood Chest of Drawers",
+"copyright": null,
+"url": "https://images.prismic.io/wizeline-academy/966b04e4-470e-4c30-8dcf-66f9da318af7_1.webp?auto=compress,format"
+},
+"short_description": "Its straight and simple lines give our Linwood collection an attractive and direct style. With its off-white finish and antique hardware details, this dresser offers contrast and a vintage touch.",
+"description": [
+{
+"type": "paragraph",
+"text": "Its straight and simple lines give our Linwood collection an attractive and direct style. With its off-white finish and antique hardware details, this dresser offers contrast and a vintage touch. The chest of drawers has a wide profile and offers ample storage space. Handcrafted from solid Meranti wood, Sungkai veneers and MDF. With off white hand applied finish. Metal hardware has an antique finish. Drawers feature English pigeon tail assembly. All wood is kiln dried, a process that ensures furniture never splits, warps, cracks or becomes moldy. It has nine spacious drawers for storage. Adjustable levelers provide stability on uneven surfaces.",
+"spans": []
+}
+],
+"specs": [
+{
+"spec_name": "Dimensions",
+"spec_value": "General: 1.63 m wide x 47 cm deep x 86 cm high. Drawer interior: 43 cm wide x 37 cm deep x 14 cm high. Space from floor to bottom of shelf: 13 cm high. Drawer weight capacity: 7 kg. Weight capacity of the upper part: 77 kg. Weight: 67.50 kg \""
+},
+{
+"spec_name": "Care and Cleaning Instructions",
+"spec_value": "Wipe clean with a soft, dry cloth. Wipe up spills immediately with a clean, dry cloth. Avoid using furniture polishes"
+},
+{
+"spec_name": "Material",
+"spec_value": "Wood"
+}
+],
+"images": [
+{
+"image": {
+"dimensions": {
+"width": 696,
+"height": 900
+},
+"alt": null,
+"copyright": null,
+"url": "https://images.prismic.io/wizeline-academy/966b04e4-470e-4c30-8dcf-66f9da318af7_1.webp?auto=compress,format"
+}
+},
+{
+"image": {
+"dimensions": {
+"width": 696,
+"height": 900
+},
+"alt": null,
+"copyright": null,
+"url": "https://images.prismic.io/wizeline-academy/8de2523e-7d28-4c3b-8277-cd3ad6d78930_2.webp?auto=compress,format"
+}
+},
+{
+"image": {
+"dimensions": {
+"width": 696,
+"height": 900
+},
+"alt": null,
+"copyright": null,
+"url": "https://images.prismic.io/wizeline-academy/d0f7420d-0083-4bbe-8ee8-ae904b28610d_3.jpeg?auto=compress,format"
+}
+},
+{
+"image": {
+"dimensions": {
+"width": 696,
+"height": 900
+},
+"alt": null,
+"copyright": null,
+"url": "https://images.prismic.io/wizeline-academy/2d8e6f69-bbac-41d9-aa73-719266a6e88b_4.webp?auto=compress,format"
+}
+}
+],
+"stock": 10,
+"price": 2124.25
+}
+},
+{
+"id": "YWL8XBIAAC0AzuPZ",
+"uid": null,
+"url": null,
+"type": "product",
+"href": "https://wizeline-academy.cdn.prismic.io/api/v2/documents/search?ref=YZaBvBIAACgAvnOP&q=%5B%5B%3Ad+%3D+at%28document.id%2C+%22YWL8XBIAAC0AzuPZ%22%29+%5D%5D",
+"tags": [
+"Living Room",
+"Sofa"
+],
+"first_publication_date": "2021-10-10T14:44:47+0000",
+"last_publication_date": "2021-10-10T14:44:47+0000",
+"slugs": [
+"tallulah-sofa-gray",
+"sofa-tallulah-gris"
+],
+"linked_documents": [],
+"lang": "en-us",
+"alternate_languages": [
+{
+"id": "YWL7yBIAAC8AzuFJ",
+"type": "product",
+"lang": "es-mx"
+}
+],
+"data": {
+"name": "Tallulah Sofa Gray",
+"sku": "1080681271",
+"category": {
+"id": "YWHviRIAACsAyjP3",
+"type": "category",
+"tags": [],
+"lang": "en-us",
+"slug": "furniture",
+"first_publication_date": "2021-10-09T23:34:39+0000",
+"last_publication_date": "2021-10-12T23:30:58+0000",
+"link_type": "Document",
+"isBroken": false
+},
+"mainimage": {
+"dimensions": {
+"width": 696,
+"height": 900
+},
+"alt": "Tallulah Sofa Gray",
+"copyright": null,
+"url": "https://images.prismic.io/wizeline-academy/fa394f7d-4d89-4c90-86b3-832de74928fa_1.webp?auto=compress,format"
+},
+"short_description": "A low profile sets the stage for nighttime relaxation. The Tallulah upholstered sofa combines the straight lines of the European style with romantic details such as side cushions, crooked legs and nail heads. Square arm.",
+"description": [
+{
+"type": "paragraph",
+"text": "A low profile sets the stage for nighttime relaxation. The Tallulah upholstered sofa combines the straight lines of the European style with romantic details such as side cushions, crooked legs and nail heads. Square arm. Solid engineered solid wood frame. Down-filled cushions for a softer feel. Sinuous, non-sag steel springs provide shock absorbing support. The locked corner frame and mortise and tenon joinery provide exceptional structural integrity. The loose cushions are removable. Features antique brass nail head details. The removable legs have a vintage brown finish. Adjustable levelers provide stability on uneven floors.",
+"spans": []
+}
+],
+"specs": [
+{
+"spec_name": "Product Height",
+"spec_value": "88.90 cm"
+},
+{
+"spec_name": "Product width",
+"spec_value": "187 cm"
+},
+{
+"spec_name": "Product depth",
+"spec_value": "101 cm"
+},
+{
+"spec_name": "Product Weight",
+"spec_value": "56.69 kg"
+},
+{
+"spec_name": "Material",
+"spec_value": "Cloth"
+},
+{
+"spec_name": "Care and Cleaning Instructions",
+"spec_value": "Rotate the cushions and vacuum under them regularly. To avoid discoloration"
+}
+],
+"images": [
+{
+"image": {
+"dimensions": {
+"width": 696,
+"height": 900
+},
+"alt": null,
+"copyright": null,
+"url": "https://images.prismic.io/wizeline-academy/fa394f7d-4d89-4c90-86b3-832de74928fa_1.webp?auto=compress,format"
+}
+},
+{
+"image": {
+"dimensions": {
+"width": 696,
+"height": 900
+},
+"alt": null,
+"copyright": null,
+"url": "https://images.prismic.io/wizeline-academy/3b54d7d6-5033-4aad-a8f0-eb84032659c0_2.jpeg?auto=compress,format"
+}
+},
+{
+"image": {
+"dimensions": {
+"width": 696,
+"height": 900
+},
+"alt": null,
+"copyright": null,
+"url": "https://images.prismic.io/wizeline-academy/58dbb943-d02c-4c9b-aed1-c17d47c5476c_3.jpeg?auto=compress,format"
+}
+},
+{
+"image": {
+"dimensions": {
+"width": 696,
+"height": 900
+},
+"alt": null,
+"copyright": null,
+"url": "https://images.prismic.io/wizeline-academy/910fb56b-e21b-44f9-9f87-3bd2cea8262e_4.webp?auto=compress,format"
+}
+},
+{
+"image": {
+"dimensions": {
+"width": 696,
+"height": 900
+},
+"alt": null,
+"copyright": null,
+"url": "https://images.prismic.io/wizeline-academy/2d6cb851-6f38-46c9-870a-c5f374a927ca_5.webp?auto=compress,format"
+}
+},
+{
+"image": {
+"dimensions": {
+"width": 696,
+"height": 900
+},
+"alt": null,
+"copyright": null,
+"url": "https://images.prismic.io/wizeline-academy/9ff1a54a-986b-49fc-a5c4-78d6aca246db_6.webp?auto=compress,format"
+}
+},
+{
+"image": {
+"dimensions": {
+"width": 940,
+"height": 1215
+},
+"alt": null,
+"copyright": null,
+"url": "https://images.prismic.io/wizeline-academy/f7551c24-90b0-4fcc-8d45-86157eafa799_7.webp?auto=compress,format"
+}
+},
+{
+"image": {
+"dimensions": {
+"width": 696,
+"height": 900
+},
+"alt": null,
+"copyright": null,
+"url": "https://images.prismic.io/wizeline-academy/8332d09a-6fa3-4786-a2a8-2b99c9b45df9_8.webp?auto=compress,format"
+}
+}
+],
+"stock": 4,
+"price": 1834.57
+}
+},
+{
+"id": "YZZ8QRIAACsAvlld",
+"uid": null,
+"url": null,
+"type": "product",
+"href": "https://wizeline-academy.cdn.prismic.io/api/v2/documents/search?ref=YZaBvBIAACgAvnOP&q=%5B%5B%3Ad+%3D+at%28document.id%2C+%22YZZ8QRIAACsAvlld%22%29+%5D%5D",
+"tags": [
+"Lamps"
+],
+"first_publication_date": "2021-11-18T16:16:04+0000",
+"last_publication_date": "2021-11-18T16:16:04+0000",
+"slugs": [
+"carter-floor-lamp",
+"lampara-de-piso-carter"
+],
+"linked_documents": [],
+"lang": "en-us",
+"alternate_languages": [
+{
+"id": "YZZ8CBIAAC8AvlhR",
+"type": "product",
+"lang": "es-mx"
+}
+],
+"data": {
+"name": "Carter Floor Lamp",
+"sku": "1067005101",
+"category": {
+"id": "YWHy0xIAACoAykKm",
+"type": "category",
+"tags": [],
+"lang": "en-us",
+"slug": "lighting",
+"first_publication_date": "2021-10-09T23:32:20+0000",
+"last_publication_date": "2021-10-13T00:04:48+0000",
+"link_type": "Document",
+"isBroken": false
+},
+"mainimage": {
+"dimensions": {
+"width": 940,
+"height": 1215
+},
+"alt": "Carter Floor Lamp",
+"copyright": null,
+"url": "https://images.prismic.io/wizeline-academy/e4a2c50e-0578-4f2e-a7f7-4a5cb49f82bb_1.webp?auto=compress,format"
+},
+"short_description": "Finished in brass and champagne, the elongated, open frame gives our Carter collection its graceful appearance. The delicate geometric design takes up little space and has French wiring for a classic accent. Made of steel. Hand finished in brass. Power switch located in socket. Dimensions: General (without lampshade): 36.20 cm diameter x 1.70 m high. Finishing: 3.18 cm in diameter. Harp: 29.85 cm. Cable: 3.35 m. Spotlight (1): 9 Watt LED (included); it also accommodates a 75 Watt Type A (not included).",
+"description": [
+{
+"type": "paragraph",
+"text": "Finished in brass and champagne, the elongated, open frame gives our Carter collection its graceful appearance. The delicate geometric design takes up little space and has French wiring for a classic accent. Made of steel. Hand finished in brass. Power switch located in socket. Dimensions: General (without lampshade): 36.20 cm diameter x 1.70 m high. Finishing: 3.18 cm in diameter. Harp: 29.85 cm. Cable: 3.35 m. Spotlight (1): 9 Watt LED (included); it also accommodates a 75 Watt Type A (not included).",
+"spans": []
+}
+],
+"specs": [
+{
+"spec_name": "Color",
+"spec_value": "Gold"
+}
+],
+"images": [
+{
+"image": {
+"dimensions": {
+"width": 940,
+"height": 1215
+},
+"alt": null,
+"copyright": null,
+"url": "https://images.prismic.io/wizeline-academy/e4a2c50e-0578-4f2e-a7f7-4a5cb49f82bb_1.webp?auto=compress,format"
+}
+},
+{
+"image": {
+"dimensions": {
+"width": 940,
+"height": 1215
+},
+"alt": null,
+"copyright": null,
+"url": "https://images.prismic.io/wizeline-academy/f80196e8-8dd1-45af-a177-8303c63275ef_2.jpeg?auto=compress,format"
+}
+},
+{
+"image": {
+"dimensions": {
+"width": 940,
+"height": 1215
+},
+"alt": null,
+"copyright": null,
+"url": "https://images.prismic.io/wizeline-academy/54b15d11-955c-4579-95c8-7429097383db_3.jpeg?auto=compress,format"
+}
+},
+{
+"image": {
+"dimensions": {
+"width": 940,
+"height": 1215
+},
+"alt": null,
+"copyright": null,
+"url": "https://images.prismic.io/wizeline-academy/62be7f3f-4865-4938-83b4-84469e878ff4_4.jpeg?auto=compress,format"
+}
+},
+{
+"image": {
+"dimensions": {
+"width": 940,
+"height": 1215
+},
+"alt": null,
+"copyright": null,
+"url": "https://images.prismic.io/wizeline-academy/ceec39f7-ad97-4623-841f-d8de5aac0fc5_5.webp?auto=compress,format"
+}
+}
+],
+"stock": 46,
+"price": 369
+}
+}
+],
+"version": "c26e0c3",
+"license": "This work is licensed under the Creative Commons Attribution 4.0 International License. To view a copy of this license, visit http://creativecommons.org/licenses/by/4.0/."
+}

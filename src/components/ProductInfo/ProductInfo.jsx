@@ -32,7 +32,7 @@ const ProductInfo = ({
         <dt>Category</dt>
         <dd>{ productCategory }</dd>
         <dt>Tags</dt>
-        <dd>
+        <dd data-testid="product-tags">
           {tags.map((tag, index) => (
             <Tag key={ index }>{ tag }</Tag>
           ))}

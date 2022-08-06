@@ -3,7 +3,7 @@ import { Container, CategoriesWrapper, Title } from './FeaturedCategories.styles
 import { Loader } from 'components'
 import useCategories from 'utils/hooks/useCategories'
 
-const ProductCategories = () => {
+const FeaturedCategories = () => {
   const { categories, isLoading } = useCategories()
 
   return (
@@ -11,9 +11,9 @@ const ProductCategories = () => {
       <Title className='section-title'>Categories</Title>
       {isLoading
         ? <Loader /> 
-        : <CategoriesWrapper>
+        : <CategoriesWrapper data-testid="featured-categories">
           {categories.map((item) =>(
-            <Category key={item.id} category={item}/>
+            <Category key={item.id} category={item} />
           ))}  
           </CategoriesWrapper>
       }
@@ -21,4 +21,4 @@ const ProductCategories = () => {
   )
 }
 
-export default ProductCategories 
+export default FeaturedCategories 

@@ -46,10 +46,12 @@ const CategoriesFilter = ({ updateFilters }) => {
       <FilterTitle>By Category:</FilterTitle>
       {isLoading
       ? <Loader/>
-      : <FilterList>
+      : <FilterList data-testid="filter-categories">
           {categories.map(category => {
-            const { id, data } = category
-            const { name } = data
+            const {
+              id,
+              data: {name} 
+            } = category
             const active = filters.map(filter => filter.id).includes(category.id)
             return (
               <li key={ id } >

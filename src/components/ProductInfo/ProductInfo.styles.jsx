@@ -1,7 +1,7 @@
 import styled from 'styled-components'
 import { device } from 'config'
 
-const Title = styled.h1`
+const Title = styled.h2`
   font-size: 2.4rem;
 
   @media ${device.laptop} {

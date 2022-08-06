@@ -32,10 +32,10 @@ const ProductsList = () => {
           <GridHeader>
             <p>Total items: <span>{ total }</span></p>
           </GridHeader>
-            <Grid>
-              {products.map(item => (
-                <Card key={item.id} item={item} />
-              ))}
+          <Grid data-testid="products-list">
+            {products.map(item => (
+              <Card key={item.id} item={item} />
+            ))}
             </Grid>
           <GridFooter>
             <Pagination 

@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect, useState } from 'react'
 import { Loader } from 'components'
 import {
  Grid,
@@ -14,7 +14,10 @@ import { Link } from 'react-router-dom'
 
 const CartProducts = () => {
   const { products, totalItems, subtotal, isLoading } = useCartProducts()
-  const cartIsEmpty = !products.length
+  const [cartIsEmpty, setCartIsEmpty] = useState(true)
+  useEffect(() => {
+    setCartIsEmpty(!products.length)
+  }, [products.length])
 
   return (
     <GridContainer>
@@ -26,7 +29,7 @@ const CartProducts = () => {
             <Link to="/products">See all products</Link>
           </GridHeader>
         : <>
-            <Grid>
+            <Grid data-testid="cart-list">
               {products.map(item => (
                 <CartProduct key={item.id} item={item} />
               ))}
