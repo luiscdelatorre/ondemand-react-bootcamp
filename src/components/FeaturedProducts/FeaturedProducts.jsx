@@ -11,8 +11,8 @@ const FeaturedProducts = () => {
   const { products, isLoading } = useProducts([], tags, totalItems)
 
   return (
-    <Container className='container'>
-      <Title className='section-title'>Featured Products</Title>
+    <Container className="container">
+      <Title className="section-title">Featured Products</Title>
       {isLoading
         ? <Loader /> 
         : <Grid data-testid="featured-products" >
@@ -21,7 +21,7 @@ const FeaturedProducts = () => {
             ))}  
           </Grid>
       }
-      <Link to="/products">View all products</Link>
+      <Link to="/products" className="button">View all products</Link>
     </Container>
   )
 }

@@ -30,7 +30,7 @@ const CheckoutSummary = () => {
             {products.map(({id, data: { name, price }, quantity}) => (
               <Row key={id}>
                 <Column><b>({ quantity })</b> { name }</Column>
-                <Column><b>${ price }</b></Column>
+                <Column><b>${ price.toFixed(2) }</b></Column>
               </Row>
             ))}
             <hr />

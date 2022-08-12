@@ -38,7 +38,7 @@ const SlideContainer = styled.div`
 `
 
 const Title = styled.h2`
-  color: ${({ theme }) => theme.textSecondary };
+  color: ${({ theme }) => theme.white };
   font-size: 5.2rem;
   left: 2rem;
   max-width: 90%;
@@ -54,7 +54,7 @@ const Title = styled.h2`
 
 const SlideAction = styled.button`
   bottom: 8rem;
-  color: ${({ theme }) => theme.textSecondary };
+  color: ${({ theme }) => theme.white };
   left: 50%;
   position: absolute;
   transform: translateX(-50%);

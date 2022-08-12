@@ -2,7 +2,7 @@ import styled from 'styled-components'
 import { device } from 'config'
 
 const Container = styled.div`
-  border-radius: 2rem;
+  border-radius: ${({ theme }) => theme.borderRadiusMd};
   box-shadow: ${({ theme }) => theme.slideOverlay } 0px 5px 20px -10px;
   padding: 2rem;
   margin: 4rem auto;

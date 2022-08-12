@@ -60,7 +60,7 @@ const CardContent = styled.div`
 
 const Title = styled.h3`
   bottom: 0.5rem;
-  color: ${({ theme }) => theme.textSecondary };
+  color: ${({ theme }) => theme.white };
   left: 1rem;
   margin: 0;
   position: absolute;

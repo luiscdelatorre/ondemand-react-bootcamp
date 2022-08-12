@@ -26,7 +26,7 @@ const ProductInfo = ({
       <hr />
       <DescriptionList>
         <dt>Price</dt>
-        <dd><Price>${ price }</Price></dd>
+        <dd><Price>${ price.toFixed(2) }</Price></dd>
         <dt>Quantity</dt>
         <dd>{ stock } in Stock</dd>
         <dt>Category</dt>

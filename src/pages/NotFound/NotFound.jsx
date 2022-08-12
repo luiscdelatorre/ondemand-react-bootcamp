@@ -1,17 +1,16 @@
-import { Container } from './NotFound.styles'
+import { TbHome } from 'react-icons/tb'
+import { Link } from 'react-router-dom'
+import { Container, Title, Subtitle } from './NotFound.styles'
+import image404 from 'assets/404.gif'
 
 const NotFound = () => {
+
   return (
-    <Container>
-      <h1>Not Found</h1>
-      <h2>Not Found</h2>
-      <h3>Not Found</h3>
-      <h4>Not Found</h4>
-      <h5>Not Found</h5>
-      <h6>Not Found</h6>
-      <p>Lorem <b>Ipsum</b> <span>dolor</span> <small>sit</small> amet.</p>
-      <a href='/'>This is a link</a>
-      <button>My button</button>
+    <Container className="container">
+      <Title>We're sorry.</Title>
+      <Subtitle>We lost this page.</Subtitle>
+      <img src={image404} alt="not found" />
+      <Link className='button' to="/home"><TbHome />Go to Home page</Link>
     </Container>
   )
 }

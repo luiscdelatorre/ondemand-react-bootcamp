@@ -1,5 +1,6 @@
 import { useState } from 'react'
 import { TextareaContainer, InputLabel } from './FormTextarea.styles'
+import PropTypes from 'prop-types'
 
 const FormTextarea = ({ label, id }) => {
   const [value, setValue] = useState('')
@@ -20,5 +21,10 @@ const FormTextarea = ({ label, id }) => {
       </TextareaContainer>
   )
 }
+
+FormTextarea.propTypes = {
+  label: PropTypes.string.isRequired,
+  id: PropTypes.string.isRequired
+} 
 
 export default FormTextarea

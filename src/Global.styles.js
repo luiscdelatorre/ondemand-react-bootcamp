@@ -25,7 +25,7 @@ body {
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  font-family: 'Dosis', sans-serif;
+  font-family: ${({ theme }) => theme.font};
   background-color: ${({ theme }) => theme.background};
   color: ${({ theme }) => theme.text};
 }
@@ -69,7 +69,6 @@ h6 {
   font-family: ${({ theme }) => theme.fontTitle};
   font-weight: 400;
   margin: 0.5rem 0;
-  letter-spacing: 2px;
 }
 
 h1 {
@@ -103,18 +102,21 @@ ul {
   padding-left: 0;
 }
 
-button {
-  border-radius: 3rem;
+button, .button {
+  border-radius: ${({ theme }) => theme.borderRadiusLg};
   background-color: ${({ theme }) => theme.primary};
-  color: ${({ theme }) => theme.textSecondary};
+  color: ${({ theme }) => theme.white};
   cursor: pointer;
   border: none;
-  display: inline-block;
-  font-size: 1.8rem;
-  font-weight: 700;
-  padding: 1.5rem 3rem;
+  display: inline-flex;
+  font-size: 2rem;
+  font-weight: 500;
+  letter-spacing: 0.01rem;
+  padding: 1.25rem 3rem;
+  text-align: center;
   text-decoration: none;
-  font-family: 'Dosis', sans-serif;
+  font-family: ${({ theme }) => theme.fontTitle};
+  justify-content: center;
 
   &:focus {
     outline: none;
@@ -131,6 +133,10 @@ button {
     background-color: ${({ theme }) => theme.disabled};
     color: ${({ theme }) => theme.text};
   }
+
+  svg {
+    margin-right: 0.5rem;
+  }
 }
 
 hr {
@@ -140,14 +146,14 @@ hr {
   margin: 1.5rem 0;
 }
 
-img{
+img {
   display: inline-block;
   vertical-align: top;
   max-width: 100%;
 }
 
 input, textarea {
-  border-radius: 2rem;
+  border-radius: ${({ theme }) => theme.borderRadiusMd };
   color: ${(props) => props.theme.text};
   font-size: 1.6rem;
   border: 1px solid ${({ theme }) => theme.borderColor };
@@ -203,14 +209,8 @@ textarea {
   line-height: 1;
   position: relative;
 
-  &::before {
-    background-color: ${({ theme }) => theme.primary};
-    bottom: 0;
-    content: '';
-    height: 0.4rem;
-    left: 0;
-    position: absolute;
-    width: 2rem;
+  &::first-letter {
+    border-bottom: 0.4rem solid ${({ theme }) => theme.primary};
   }
 }
 

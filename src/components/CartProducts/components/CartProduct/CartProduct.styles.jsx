@@ -61,11 +61,10 @@ const CardActions = styled.footer`
 
 const CardName = styled(Link)`
   color: ${({ theme }) => theme.text};
-  font-family: 'Dosis',sans-serif;
+  font-family: ${({ theme }) => theme.font};
   font-size: 1.8rem;
   font-weight: 700;
   grid-area: name;
-  letter-spacing: 1px;
   margin: 0;
   overflow: hidden;
   padding: 1rem 1rem 0;
@@ -108,7 +107,6 @@ const Stock = styled.p`
   font-size: 1.3rem;
   font-weight: 700;
   grid-area: stock;
-  letter-spacing: 0.05rem;
   line-height: 1;
   margin-bottom: 0;
   padding: 0 1rem;

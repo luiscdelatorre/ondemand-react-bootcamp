@@ -6,8 +6,8 @@ const Container = styled.section`
 
 const Intro = styled.div`
   background-color: ${({theme}) => theme.primary};
-  border-radius: 1rem;
-  color: ${({theme}) => theme.textSecondary};
+  border-radius: ${({ theme }) => theme.borderRadiusSm};
+  color: ${({theme}) => theme.white};
   margin: 0 2rem;
   padding: 2rem;
   text-align: justify;

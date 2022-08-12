@@ -1,5 +1,6 @@
 import styled from 'styled-components'
 import { device } from 'config'
+import { Link } from 'react-router-dom'
 
 const MenuList = styled.ul`
   @media ${device.onlySm} {
@@ -24,20 +25,23 @@ const MenuListItem = styled.li`
     height: 3.8rem;
     padding: 1rem 2rem;
   }
+`
 
-  span {
-    cursor: pointer;
-    font-family: ${({ theme }) => theme.fontTitle};
-    font-size: 2.4rem;
-    letter-spacing: 1px;
+const MenuLink = styled(Link)`
+  cursor: pointer;
+  font-family: ${({ theme }) => theme.fontTitle};
+  font-size: 2rem;
+  text-decoration: none;
+  color: ${({ theme }) => theme.text};
+  transition: ${({ theme }) => theme.transition};
 
-    &:hover {
-      color: ${({ theme }) => theme.link};
-    }
+  &:hover {
+    color: ${({ theme }) => theme.link};
   }
 `
 
 export {
+  MenuLink,
   MenuList,
   MenuListItem
 }

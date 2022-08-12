@@ -1,8 +1,9 @@
 import styled from 'styled-components'
 import { device } from 'config'
 
-const Title = styled.h2`
+const Title = styled.h1`
   font-size: 2.4rem;
+  font-weight: 500;
 
   @media ${device.laptop} {
     font-size: 3rem;
@@ -12,7 +13,6 @@ const Title = styled.h2`
 const Price = styled.p`
   color: ${({theme}) => theme.primary };
   font-size: 2rem;
-  font-weight: bold;
   margin-bottom: 0;
 
   @media ${device.laptop} {
@@ -37,7 +37,7 @@ const DescriptionList = styled.dl`
   }
 
   dt {
-    font-weight: bold;
+    font-weight: 700;
     width: 30%;
   }
 
@@ -47,7 +47,7 @@ const DescriptionList = styled.dl`
 `
 
 const Tag = styled.span`
-  border-radius: 3rem;
+  border-radius: ${({ theme }) => theme.borderRadiusMd};
   border: 1px solid ${({ theme }) => theme.borderColor};
   display: inline-block;
   font-size: 1.4rem;
@@ -56,7 +56,9 @@ const Tag = styled.span`
 `
 
 const Subtitle = styled.h2`
+  font-family: ${({ theme }) => theme.font};
   font-size: 1.6rem;
+  font-weight: 700;
 
   @media ${device.laptop} {
     font-size: 1.8rem;
@@ -66,9 +68,7 @@ const Subtitle = styled.h2`
 const Description = styled.p`
   font-size: 1.4rem;
 
-  @media ${device.laptop} {
-    font-size: 1.6rem;
-  }
+
 `
 
 export {

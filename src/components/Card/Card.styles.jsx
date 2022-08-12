@@ -3,7 +3,7 @@ import styled from 'styled-components'
 import { Link } from 'react-router-dom'
 
 const CardContainer = styled(Link)`
-  border-radius: 2rem;
+  border-radius: ${({ theme }) => theme.borderRadiusSm};
   color: ${({ theme }) => theme.text };
   display: flex;
   flex-direction: column;
@@ -55,11 +55,10 @@ const CardImage = styled.figure`
 
 const CardDescription = styled.div`
   background-color: #fff;
-  border-radius: 2rem;
+  border-radius: 0 0 ${({ theme }) => theme.borderRadiusSm} ${({ theme }) => theme.borderRadiusSm};
   border: 1px solid ${({ theme }) => theme.borderColor };
   height: 100%;
   padding: 1rem;
-  margin-top: -4rem;
   text-align: left;
   position: relative;
   z-index: 1;
@@ -74,10 +73,9 @@ const CardActions = styled.footer`
 
 const CardName = styled.h3`
   font-size: 1.8rem;
-  font-family: 'Dosis',sans-serif;
   font-weight: 700;
+  font-family: ${({ theme }) => theme.font};
   height: 4rem;
-  letter-spacing: 1px;
   display: -webkit-box;
   -webkit-line-clamp: 2;
   -webkit-box-orient: vertical;  
@@ -86,6 +84,9 @@ const CardName = styled.h3`
 `
 const CardCategory = styled.p`
   font-size: 1.6rem;
+  font-weight: 300;
+  font-family: ${({ theme }) => theme.fontTitle};
+  color: ${({ theme }) => theme.textSecondary};
 `
 const CardPrice = styled.p`
   font-size: 1.6rem;

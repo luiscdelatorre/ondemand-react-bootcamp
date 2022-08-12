@@ -3,6 +3,7 @@ import {device } from 'config'
 
 const Container = styled.figure`
   border: 1px solid ${({active, theme}) => active ? theme.primary : theme.borderColor};
+  border-radius: ${({theme}) => theme.borderRadiusSm};
   cursor: pointer;
   flex-shrink: 0;
   margin: 0 0 1rem;

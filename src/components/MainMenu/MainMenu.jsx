@@ -1,15 +1,14 @@
-import { MenuList, MenuListItem } from './MainMenu.styles'
-import { Link } from 'react-router-dom'
+import { MenuLink, MenuList, MenuListItem } from './MainMenu.styles'
 import PropTypes from 'prop-types'
 
 const MainMenu = ({ toggleMenu }) => {
   return (
     <MenuList>
       <MenuListItem>
-        <Link onClick={toggleMenu} to="/home">Home</Link>
+        <MenuLink onClick={toggleMenu} to="/home">Home</MenuLink>
       </MenuListItem>
       <MenuListItem>
-        <Link onClick={toggleMenu} to="/products">Products</Link>
+        <MenuLink onClick={toggleMenu} to="/products">Products</MenuLink>
       </MenuListItem>
     </MenuList>
   )
