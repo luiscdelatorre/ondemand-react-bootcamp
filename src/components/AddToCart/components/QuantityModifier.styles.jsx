@@ -1,9 +1,9 @@
 import styled from 'styled-components'
 
 const ButtonsContainer = styled.div`
-  border-radius: 3rem;
+  border-radius: ${({ theme }) => theme.borderRadiusLg };
   border: 1px solid ${({ theme }) => theme.primary};
-  color: ${({ theme }) => theme.textSecondary};
+  color: ${({ theme }) => theme.white};
   cursor: pointer;
   display: inline-flex;
   flex-direction: row;
@@ -16,7 +16,7 @@ const ButtonsContainer = styled.div`
 const QtyButton = styled.button`
   align-items: center;
   background-color: transparent;
-  border-radius: 3rem;
+  border-radius: ${({ theme }) => theme.borderRadiusLg };
   color: ${({ theme }) => theme.primary};
   display: flex;
   flex-basis: auto;
@@ -37,7 +37,7 @@ const QtyInput =  styled.input`
   border: none;
   flex: 1;
   min-width: 0;
-  padding: 1.65rem 0;
+  padding: 2.45rem 0;
   text-align: center;
   z-index: 0;
 
@@ -48,9 +48,9 @@ const QtyInput =  styled.input`
 const QtyLabel =  styled.span`
   background-color: ${({ theme }) => theme.background};
   bottom: -0.6rem;
-  bottom: 0;
   color: black;
   font-size: 1.2rem;
+  font-family: ${({ theme }) => theme.fontTitle};
   left: 50%;
   position: absolute;
   text-align: center;

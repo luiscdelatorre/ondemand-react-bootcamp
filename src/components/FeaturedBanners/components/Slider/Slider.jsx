@@ -26,12 +26,12 @@ const Slider = ({ items }) => {
   })
 
   return (
-    <>
+    <div data-testid="featured-banners">
       {items.map((slide, index) => (
         <Slide key={index} slide={slide} active={slideIndex === index + 1} />
       ))}
       <Dots items={items} slideIndex={slideIndex} onSelect={(index) => moveDot(index)} />
-    </>
+    </div>
   )
 }
 

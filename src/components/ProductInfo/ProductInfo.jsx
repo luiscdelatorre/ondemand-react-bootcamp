@@ -26,13 +26,13 @@ const ProductInfo = ({
       <hr />
       <DescriptionList>
         <dt>Price</dt>
-        <dd><Price>${ price }</Price></dd>
+        <dd><Price>${ price.toFixed(2) }</Price></dd>
         <dt>Quantity</dt>
         <dd>{ stock } in Stock</dd>
         <dt>Category</dt>
         <dd>{ productCategory }</dd>
         <dt>Tags</dt>
-        <dd>
+        <dd data-testid="product-tags">
           {tags.map((tag, index) => (
             <Tag key={ index }>{ tag }</Tag>
           ))}

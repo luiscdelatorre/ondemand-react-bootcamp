@@ -12,7 +12,7 @@ const ProductPurchase = ({ stock, price, productId }) => {
 
   return (
     <div>
-      <Price>${ price }</Price>
+      <Price>${ price.toFixed(2) }</Price>
       <Stock hasStock={ hasStock }>{ hasStock ? 'Available' : 'Out of stock' }</Stock>
       <p><span>{ stock } in stock</span></p>
       <hr />

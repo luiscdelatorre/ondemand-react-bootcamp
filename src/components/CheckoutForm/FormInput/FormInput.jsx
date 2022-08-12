@@ -1,5 +1,6 @@
 import { useState } from 'react'
 import { InputContainer, InputError, InputLabel } from './FormInput.styles'
+import PropTypes from 'prop-types'
 
 const FormInput = ({ label, id, validator }) => {
   const [value, setValue] = useState('')
@@ -24,5 +25,11 @@ const FormInput = ({ label, id, validator }) => {
       </InputContainer>
   )
 }
+
+FormInput.propTypes = {
+  label: PropTypes.string.isRequired,
+  id: PropTypes.string.isRequired,
+  validator: PropTypes.func.isRequired,
+} 
 
 export default FormInput

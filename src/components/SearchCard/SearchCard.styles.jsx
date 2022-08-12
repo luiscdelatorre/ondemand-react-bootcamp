@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom'
 import { device } from 'config'
 
 const CardContainer = styled(Link)`
-  border-radius: 2rem;
+  border-radius: ${({ theme }) => theme.borderRadiusSm};
   border: 1px solid ${({ theme }) => theme.borderColor };
   color: ${({ theme }) => theme.text };
   display: grid;
@@ -100,9 +100,8 @@ const CardActions = styled.footer`
 const CardName = styled.h3`
   grid-area: name;
   font-size: 1.8rem;
-  font-family: 'Dosis',sans-serif;
+  font-family: ${({ theme }) => theme.font};
   font-weight: 700;
-  letter-spacing: 1px;
   display: -webkit-box;
   -webkit-line-clamp: 2;
   -webkit-box-orient: vertical;  
@@ -117,6 +116,7 @@ const CardCategory = styled.p`
   margin-bottom: 0;
   padding: 0 1rem;
   text-align: right;
+  
 
   @media ${device.laptop} {
     text-align: left;

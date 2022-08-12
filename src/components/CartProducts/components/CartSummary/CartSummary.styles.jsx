@@ -29,24 +29,8 @@ const SummaryColumn = styled.p`
 `
 
 const LinkButton = styled(Link)`
-  align-items: center;
-  background-color: ${({ theme }) => theme.primary};
-  border-radius: 3rem;
-  border: none;
-  color: ${({ theme }) => theme.textSecondary};
-  display: flex;
-  font-family: 'Dosis', sans-serif;
-  font-size: 1.8rem;
-  font-weight: 700;
-  justify-content: center;
   margin: 1rem 0 0.5rem;
-  padding: 1.5rem 3rem;
-  text-decoration: none;
   width: 100%;
-
-  svg {
-    margin-right: 0.5rem;
-  }
 `
 
 export {

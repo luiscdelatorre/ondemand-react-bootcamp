@@ -36,10 +36,10 @@ const QuantityModifier = ({ quantity, stock, onUpdate, showLabel = true }) => {
 
   return (
     <ButtonsContainer onClick={handleClick}> 
-      <QtyButton type="button" onClick={ decreaseQty }><TbMinus /></QtyButton>
+      <QtyButton type="button" onClick={ decreaseQty } data-testid="minus-button"><TbMinus /></QtyButton>
       <QtyInput type="number" onChange={ updateQty } value={ quantity } />
       {showLabel ? <QtyLabel>Added to Cart</QtyLabel> : null}
-      <QtyButton type="button" onClick={ increaseQty }><TbPlus /></QtyButton>
+      <QtyButton type="button" onClick={ increaseQty } data-testid="add-button"><TbPlus /></QtyButton>
     </ButtonsContainer>
   )
 }

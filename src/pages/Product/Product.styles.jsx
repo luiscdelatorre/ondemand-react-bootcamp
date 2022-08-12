@@ -52,7 +52,7 @@ const PurchaseContainer = styled.div`
   grid-area: stock;
   padding: 2rem;
   border: 1px solid ${({ theme }) => theme.borderColor};
-  border-radius: 3rem;
+  border-radius: ${({ theme }) => theme.borderRadiusMd};
 `
 
 const SpecsContainer = styled.div`

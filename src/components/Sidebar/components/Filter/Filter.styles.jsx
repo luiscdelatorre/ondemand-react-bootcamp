@@ -14,7 +14,7 @@ const FilterButton = styled.button`
   
   ${({ active, theme }) => active && `
     background-color: ${theme.primary};
-    color: ${theme.textSecondary};
+    color: ${theme.white};
 
      &:hover {
       background-color: ${theme.primaryDark};

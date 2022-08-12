@@ -11,15 +11,14 @@ import {
 const Product = () => {
   const { productId } = useParams()
   const { 
-    product,
+    product: {data},
     isLoading
   } = useProduct(productId)
-  const { data } = product
 
   return (
     isLoading
       ? <Loader />
-      : <Container className='container'>
+      : <Container className='container' data-testid="product-detail">
           <GalleryContainer>
             <ProductGallery {...data} />
           </GalleryContainer>

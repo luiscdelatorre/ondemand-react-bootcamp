@@ -1,5 +1,5 @@
-const isRequired = (value, label, min = 1) => {
-  const validator = value.trim().length >= min 
+const isRequired = (value, label, minLength = 1) => {
+  const validator = value.trim().length >= minLength 
   const message = `${label} can't be empty`
 
   return validate(validator, message)

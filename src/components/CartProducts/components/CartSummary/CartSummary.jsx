@@ -1,4 +1,5 @@
 import { TbCreditCard } from 'react-icons/tb'
+import PropTypes from 'prop-types'
 import {
  Container,
  LinkButton,
@@ -14,14 +15,14 @@ const CartSummary = ({ totalItems, subtotal }) => {
     <Container>
       <SummaryTable>
         <SummaryRow>
-          <LinkButton to="/checkout">
+          <LinkButton className="button" to="/checkout">
             <TbCreditCard />Go to checkout
           </LinkButton>
         </SummaryRow>
         <hr />
         <SummaryRow>
           <SummaryColumn><b>({totalItems})</b> Items</SummaryColumn>
-          <SummaryColumn><b>${subtotal}</b></SummaryColumn>
+          <SummaryColumn><b>${subtotal.toFixed(2)}</b></SummaryColumn>
         </SummaryRow>
         <SummaryRow>
           <SummaryColumn>Shipping</SummaryColumn>
@@ -30,11 +31,16 @@ const CartSummary = ({ totalItems, subtotal }) => {
         <hr />
         <SummaryRow>
           <SummaryTotal><b>Subtotal</b></SummaryTotal>
-          <SummaryTotal><b>${subtotal.toFixed(2)}</b></SummaryTotal>
+          <SummaryTotal><b data-testid="cart-subtotal">${subtotal.toFixed(2)}</b></SummaryTotal>
         </SummaryRow>
       </SummaryTable>
     </Container>
   )
 }
+
+CartSummary.propTypes = {
+  totalItems: PropTypes.number.isRequired,
+  subtotal: PropTypes.number.isRequired,
+} 
 
 export default CartSummary

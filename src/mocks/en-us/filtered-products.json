@@ -1,0 +1,501 @@
+{
+  "page": 1,
+  "results_per_page": 12,
+  "results_size": 4,
+  "total_results_size": 4,
+  "total_pages": 1,
+  "next_page": null,
+  "prev_page": null,
+  "results": [
+    {
+    "id": "YZZ_XhIAAC0AvmiA",
+    "uid": null,
+    "url": null,
+    "type": "product",
+    "href": "https://wizeline-academy.cdn.prismic.io/api/v2/documents/search?ref=YZaBvBIAACgAvnOP&q=%5B%5B%3Ad+%3D+at%28document.id%2C+%22YZZ_XhIAAC0AvmiA%22%29+%5D%5D",
+    "tags": [
+    "Living Room",
+    "Christmas",
+    "Featured"
+    ],
+    "first_publication_date": "2021-11-18T16:29:23+0000",
+    "last_publication_date": "2021-11-18T16:29:23+0000",
+    "slugs": [
+    "fair-isle-snowflake-lumbar-cushion-cover",
+    "funda-para-cojin-fair-isle-snowflake-lumbar"
+    ],
+    "linked_documents": [],
+    "lang": "en-us",
+    "alternate_languages": [
+    {
+    "id": "YZZ_BxIAAC0Avmbq",
+    "type": "product",
+    "lang": "es-mx"
+    }
+    ],
+    "data": {
+    "name": "Fair Isle Snowflake Lumbar Cushion Cover",
+    "sku": "1107982309",
+    "category": {
+    "id": "YWHyYRIAACgAykCq",
+    "type": "category",
+    "tags": [],
+    "lang": "en-us",
+    "slug": "decorate",
+    "first_publication_date": "2021-10-09T23:32:29+0000",
+    "last_publication_date": "2021-11-18T14:27:09+0000",
+    "link_type": "Document",
+    "isBroken": false
+    },
+    "mainimage": {
+    "dimensions": {
+    "width": 696,
+    "height": 900
+    },
+    "alt": "Fair Isle Snowflake Lumbar Cushion Cover",
+    "copyright": null,
+    "url": "https://images.prismic.io/wizeline-academy/1c8883ca-2797-4138-a7e5-a7d2ae583192_1.jpeg?auto=compress,format"
+    },
+    "short_description": "Keeping a distinctive complex pattern without being complicated involves choosing a simple palette. The poinsettia red and ivory white in this cushion cover are two lovely colors that we enjoy all season long. The sweater-like snowflake design celebrates more than one type of holiday (reverse is sherpa-like sheepskin). Make it a snow day. The front is made of 100% yarn-dyed acrylic; It is reversed to 100% recycled polyester sherpa in white. Yarn dyed fabric has amazing vivid colors that keep their radiance over time. Holds 16 \"x 26\" fill (sold separately).",
+    "description": [
+    {
+    "type": "paragraph",
+    "text": "Keeping a distinctive complex pattern without being complicated involves choosing a simple palette. The poinsettia red and ivory white in this cushion cover are two lovely colors that we enjoy all season long. The sweater-like snowflake design celebrates more than one type of holiday (reverse is sherpa-like sheepskin). Make it a snow day. The front is made of 100% yarn-dyed acrylic; It is reversed to 100% recycled polyester sherpa in white. Yarn dyed fabric has amazing vivid colors that keep their radiance over time. Holds 16 \"x 26\" fill (sold separately).",
+    "spans": []
+    }
+    ],
+    "specs": [
+    {
+    "spec_name": "Dimensions",
+    "spec_value": "40.26 cm high x 66 cm wide. Zipper: Approximately 61 cm long"
+    },
+    {
+    "spec_name": "Collection",
+    "spec_value": "Fair Isle Snowflake Lumbar"
+    },
+    {
+    "spec_name": "Other information",
+    "spec_value": "Machine wash cold, inside out, on delicate cycle. Use only non-chlorine bleach, if necessary. Tumble dry on low temperature, remove immediately. Use warm iron as needed."
+    }
+    ],
+    "images": [
+    {
+    "image": {
+    "dimensions": {
+    "width": 696,
+    "height": 900
+    },
+    "alt": null,
+    "copyright": null,
+    "url": "https://images.prismic.io/wizeline-academy/1c8883ca-2797-4138-a7e5-a7d2ae583192_1.jpeg?auto=compress,format"
+    }
+    },
+    {
+    "image": {
+    "dimensions": {
+    "width": 696,
+    "height": 900
+    },
+    "alt": null,
+    "copyright": null,
+    "url": "https://images.prismic.io/wizeline-academy/741e500e-4a74-4634-b544-06fe48115cbc_2.jpeg?auto=compress,format"
+    }
+    },
+    {
+    "image": {
+    "dimensions": {
+    "width": 696,
+    "height": 900
+    },
+    "alt": null,
+    "copyright": null,
+    "url": "https://images.prismic.io/wizeline-academy/f4645f8e-fc25-4c6f-9d28-38abb7abcace_3.jpeg?auto=compress,format"
+    }
+    }
+    ],
+    "stock": 48,
+    "price": 40
+    }
+    },
+    {
+    "id": "YZZ06hIAAC0AvjsS",
+    "uid": null,
+    "url": null,
+    "type": "product",
+    "href": "https://wizeline-academy.cdn.prismic.io/api/v2/documents/search?ref=YZaBvBIAACgAvnOP&q=%5B%5B%3Ad+%3D+at%28document.id%2C+%22YZZ06hIAAC0AvjsS%22%29+%5D%5D",
+    "tags": [
+    "Trays"
+    ],
+    "first_publication_date": "2021-11-18T15:44:50+0000",
+    "last_publication_date": "2021-11-18T15:44:50+0000",
+    "slugs": [
+    "two-tone-rattan-tray",
+    "charola-rattan-two-tone"
+    ],
+    "linked_documents": [],
+    "lang": "en-us",
+    "alternate_languages": [
+    {
+    "id": "YZZ0cBIAACkAvjmw",
+    "type": "product",
+    "lang": "es-mx"
+    }
+    ],
+    "data": {
+    "name": "Two Tone Rattan Tray",
+    "sku": "1102630676",
+    "category": {
+    "id": "YWHyYRIAACgAykCq",
+    "type": "category",
+    "tags": [],
+    "lang": "en-us",
+    "slug": "decorate",
+    "first_publication_date": "2021-10-09T23:32:29+0000",
+    "last_publication_date": "2021-11-18T14:27:09+0000",
+    "link_type": "Document",
+    "isBroken": false
+    },
+    "mainimage": {
+    "dimensions": {
+    "width": 696,
+    "height": 900
+    },
+    "alt": "Two Tone Rattan Tray",
+    "copyright": null,
+    "url": "https://images.prismic.io/wizeline-academy/5b9e1a1a-2f6e-48a6-87ff-1015aa903b32_1.webp?auto=compress,format"
+    },
+    "short_description": "Handwoven from textured rattan, our tray brings a note of natural beauty to your home. Its earthy material features a blend of black and white graphic strands that play a contemporary counterpoint to organic fiber. With handles for portability, the tray offers a handy accessory for accessories, books, and candles. Handwoven from rattan and wire. Lead Free.",
+    "description": [
+    {
+    "type": "paragraph",
+    "text": "Handwoven from textured rattan, our tray brings a note of natural beauty to your home. Its earthy material features a blend of black and white graphic strands that play a contemporary counterpoint to organic fiber. With handles for portability, the tray offers a handy accessory for accessories, books, and candles. Handwoven from rattan and wire. Lead Free.",
+    "spans": []
+    }
+    ],
+    "specs": [
+    {
+    "spec_name": "Collection",
+    "spec_value": "Rattan Two Tone"
+    },
+    {
+    "spec_name": "Dimensions",
+    "spec_value": "24 '' Diameter x 3 '' Height Approximately"
+    },
+    {
+    "spec_name": "Color",
+    "spec_value": "Black"
+    }
+    ],
+    "images": [
+    {
+    "image": {
+    "dimensions": {
+    "width": 696,
+    "height": 900
+    },
+    "alt": null,
+    "copyright": null,
+    "url": "https://images.prismic.io/wizeline-academy/5b9e1a1a-2f6e-48a6-87ff-1015aa903b32_1.webp?auto=compress,format"
+    }
+    },
+    {
+    "image": {
+    "dimensions": {
+    "width": 696,
+    "height": 900
+    },
+    "alt": null,
+    "copyright": null,
+    "url": "https://images.prismic.io/wizeline-academy/ca458ce8-2e25-4db3-b936-a6ea952a201e_2.webp?auto=compress,format"
+    }
+    },
+    {
+    "image": {
+    "dimensions": {
+    "width": 696,
+    "height": 900
+    },
+    "alt": null,
+    "copyright": null,
+    "url": "https://images.prismic.io/wizeline-academy/5de72a4d-9fa4-4a17-90d5-0f94391af73a_3.webp?auto=compress,format"
+    }
+    },
+    {
+    "image": {
+    "dimensions": {
+    "width": 696,
+    "height": 900
+    },
+    "alt": null,
+    "copyright": null,
+    "url": "https://images.prismic.io/wizeline-academy/173d01f4-a8ec-4504-9852-1875bb8befa1_4.jpeg?auto=compress,format"
+    }
+    },
+    {
+    "image": {
+    "dimensions": {
+    "width": 696,
+    "height": 900
+    },
+    "alt": null,
+    "copyright": null,
+    "url": "https://images.prismic.io/wizeline-academy/e32f008b-47a0-42d8-9097-65d162aadb23_5.webp?auto=compress,format"
+    }
+    }
+    ],
+    "stock": 11,
+    "price": 94
+    }
+    },
+    {
+    "id": "YZZj4hIAACgAve1w",
+    "uid": null,
+    "url": null,
+    "type": "product",
+    "href": "https://wizeline-academy.cdn.prismic.io/api/v2/documents/search?ref=YZaBvBIAACgAvnOP&q=%5B%5B%3Ad+%3D+at%28document.id%2C+%22YZZj4hIAACgAve1w%22%29+%5D%5D",
+    "tags": [
+    "Floor mats"
+    ],
+    "first_publication_date": "2021-11-18T14:32:05+0000",
+    "last_publication_date": "2021-11-18T14:32:05+0000",
+    "slugs": [
+    "andie-mat",
+    "tapete-andie"
+    ],
+    "linked_documents": [],
+    "lang": "en-us",
+    "alternate_languages": [
+    {
+    "id": "YZZjdhIAACgAveuB",
+    "type": "product",
+    "lang": "es-mx"
+    }
+    ],
+    "data": {
+    "name": "Andie Mat",
+    "sku": "1107899690",
+    "category": {
+    "id": "YWHyYRIAACgAykCq",
+    "type": "category",
+    "tags": [],
+    "lang": "en-us",
+    "slug": "decorate",
+    "first_publication_date": "2021-10-09T23:32:29+0000",
+    "last_publication_date": "2021-11-18T14:27:09+0000",
+    "link_type": "Document",
+    "isBroken": false
+    },
+    "mainimage": {
+    "dimensions": {
+    "width": 696,
+    "height": 900
+    },
+    "alt": "Andie Mat",
+    "copyright": null,
+    "url": "https://images.prismic.io/wizeline-academy/04d1d0f6-2047-43fb-b68b-3c57366f489e_1.jpeg?auto=compress,format"
+    },
+    "short_description": "Inspired by an antique rug, the Andie faux rug features a bold pattern that can easily update the space. Layer it with your favorite neutral rug for a bohemian-inspired look. Eco-friendly polyester fiber made from recycled plastic bottles makes this durable mat a perfect choice for high-traffic areas.",
+    "description": [
+    {
+    "type": "paragraph",
+    "text": "Inspired by an antique rug, the Andie faux rug features a bold pattern that can easily update the space. Layer it with your favorite neutral rug for a bohemian-inspired look. Eco-friendly polyester fiber made from recycled plastic bottles makes this durable mat a perfect choice for high-traffic areas.",
+    "spans": []
+    }
+    ],
+    "specs": [
+    {
+    "spec_name": "Color",
+    "spec_value": "Multicolor"
+    },
+    {
+    "spec_name": "Collection",
+    "spec_value": "Andie"
+    },
+    {
+    "spec_name": "Product length",
+    "spec_value": "243.84 cm"
+    },
+    {
+    "spec_name": "Product width",
+    "spec_value": "152.4 cm"
+    },
+    {
+    "spec_name": "Style",
+    "spec_value": "Contemporary"
+    },
+    {
+    "spec_name": "Care and cleaning instructions",
+    "spec_value": "Vacuum frequently on low power using a beater brushless vacuum to prevent debris from depositing on the fiber roots. Clean up spills immediately; if liquid, blot with a clean, undyed cloth, pressing firmly around the spilled liquid to absorb as much as possible. It can be rinsed periodically with an open air hose and mild soap. For stubborn stains, a professional mat cleaning is recommended. For indoor / outdoor use. The use of a mat protector is recommended"
+    }
+    ],
+    "images": [
+    {
+    "image": {
+    "dimensions": {
+    "width": 696,
+    "height": 900
+    },
+    "alt": null,
+    "copyright": null,
+    "url": "https://images.prismic.io/wizeline-academy/04d1d0f6-2047-43fb-b68b-3c57366f489e_1.jpeg?auto=compress,format"
+    }
+    }
+    ],
+    "stock": 14,
+    "price": 222
+    }
+    },
+    {
+    "id": "YZZysBIAACkAvjFs",
+    "uid": null,
+    "url": null,
+    "type": "product",
+    "href": "https://wizeline-academy.cdn.prismic.io/api/v2/documents/search?ref=YZaBvBIAACgAvnOP&q=%5B%5B%3Ad+%3D+at%28document.id%2C+%22YZZysBIAACkAvjFs%22%29+%5D%5D",
+    "tags": [
+    "Mirrors"
+    ],
+    "first_publication_date": "2021-11-18T15:35:15+0000",
+    "last_publication_date": "2021-11-18T15:35:15+0000",
+    "slugs": [
+    "bentley-mirror",
+    "espejo-bentley"
+    ],
+    "linked_documents": [],
+    "lang": "en-us",
+    "alternate_languages": [
+    {
+    "id": "YZZxsBIAACoAviyo",
+    "type": "product",
+    "lang": "es-mx"
+    }
+    ],
+    "data": {
+    "name": "Bentley mirror",
+    "sku": "1105585981",
+    "category": {
+    "id": "YWHyYRIAACgAykCq",
+    "type": "category",
+    "tags": [],
+    "lang": "en-us",
+    "slug": "decorate",
+    "first_publication_date": "2021-10-09T23:32:29+0000",
+    "last_publication_date": "2021-11-18T14:27:09+0000",
+    "link_type": "Document",
+    "isBroken": false
+    },
+    "mainimage": {
+    "dimensions": {
+    "width": 696,
+    "height": 900
+    },
+    "alt": "Bentley mirror",
+    "copyright": null,
+    "url": "https://images.prismic.io/wizeline-academy/d060046e-6699-437e-8e46-6208ef9076b8_1.webp?auto=compress,format"
+    },
+    "short_description": "The affinity for mid-century décor means having a craving for minimal orientation and ultimate style. That's exactly what drew us to this bentwood-framed mirror. It's striking and seamless, and the understated walnut finish is as smooth as the frame.",
+    "description": [
+    {
+    "type": "paragraph",
+    "text": "The affinity for mid-century décor means having a craving for minimal orientation and ultimate style. That's exactly what drew us to this bentwood-framed mirror. It's striking and seamless, and the understated walnut finish is as smooth as the frame.",
+    "spans": []
+    }
+    ],
+    "specs": [
+    {
+    "spec_name": "Color",
+    "spec_value": "Brown"
+    },
+    {
+    "spec_name": "Mounting Type",
+    "spec_value": "Turnstiles"
+    },
+    {
+    "spec_name": "Frame Material",
+    "spec_value": "Solid boxwood with mirrored glass. Backed with MDF"
+    },
+    {
+    "spec_name": "Style",
+    "spec_value": "Mid century"
+    },
+    {
+    "spec_name": "Details",
+    "spec_value": "Walnut finish"
+    },
+    {
+    "spec_name": "Shape",
+    "spec_value": "Round"
+    },
+    {
+    "spec_name": "Product Weight",
+    "spec_value": "11.34 kg"
+    },
+    {
+    "spec_name": "Product diameter",
+    "spec_value": "101.60 cm"
+    }
+    ],
+    "images": [
+    {
+    "image": {
+    "dimensions": {
+    "width": 696,
+    "height": 900
+    },
+    "alt": null,
+    "copyright": null,
+    "url": "https://images.prismic.io/wizeline-academy/d060046e-6699-437e-8e46-6208ef9076b8_1.webp?auto=compress,format"
+    }
+    },
+    {
+    "image": {
+    "dimensions": {
+    "width": 696,
+    "height": 900
+    },
+    "alt": null,
+    "copyright": null,
+    "url": "https://images.prismic.io/wizeline-academy/01e0c250-454a-415d-bede-848d5e5c9e7b_2.webp?auto=compress,format"
+    }
+    },
+    {
+    "image": {
+    "dimensions": {
+    "width": 696,
+    "height": 900
+    },
+    "alt": null,
+    "copyright": null,
+    "url": "https://images.prismic.io/wizeline-academy/9d29ca75-d0aa-4345-b13e-783c1eaac61e_3.webp?auto=compress,format"
+    }
+    },
+    {
+    "image": {
+    "dimensions": {
+    "width": 696,
+    "height": 900
+    },
+    "alt": null,
+    "copyright": null,
+    "url": "https://images.prismic.io/wizeline-academy/e3d13328-5024-4a82-8b03-18bca22090fa_4.webp?auto=compress,format"
+    }
+    },
+    {
+    "image": {
+    "dimensions": {
+    "width": 696,
+    "height": 900
+    },
+    "alt": null,
+    "copyright": null,
+    "url": "https://images.prismic.io/wizeline-academy/26aa9259-0206-40ef-b7db-7843ffaa8772_5.webp?auto=compress,format"
+    }
+    }
+    ],
+    "stock": 15,
+    "price": 572
+    }
+    }
+  ],
+  "version": "c26e0c3",
+  "license": "This work is licensed under the Creative Commons Attribution 4.0 International License. To view a copy of this license, visit http://creativecommons.org/licenses/by/4.0/."
+}

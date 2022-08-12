@@ -29,22 +29,8 @@ const Column = styled.p`
 `
 
 const LinkButton = styled(Link)`
-  border-radius: 3rem;
-  background-color: ${({ theme }) => theme.primary};
-  color: ${({ theme }) => theme.textSecondary};
-  border: none;
-  display: flex;
-  font-size: 1.8rem;
-  font-weight: 700;
-  padding: 1.5rem 3rem;
-  text-decoration: none;
-  font-family: 'Dosis', sans-serif;
   width: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin: 1rem 0 0.5rem;
-
+  
   svg {
     margin-top: 0.25rem;
     margin-right: 0.5rem;

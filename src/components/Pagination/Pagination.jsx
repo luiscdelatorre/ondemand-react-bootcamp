@@ -34,9 +34,9 @@ const Pagination = ({ pagination, changePage }) => {
   return (
     totalPages > 1 && 
       <PaginationContainer>
-        <PaginationList>
+        <PaginationList data-testid="pagination-list">
           <PageItem disabled={!prevPage}>
-            <PageLink type='button' onClick={handlePrevPage}>
+            <PageLink type='button' onClick={handlePrevPage} data-testid="prev-button" disabled={!prevPage}>
               <TbChevronLeft />
             </PageLink>
           </PageItem>
@@ -55,8 +55,8 @@ const Pagination = ({ pagination, changePage }) => {
               )
             })
           }
-          <PageItem disabled={!nextPage}>
-            <PageLink type='button' onClick={handleNextPage}>
+          <PageItem disabled={!nextPage} >
+            <PageLink type='button' onClick={handleNextPage} data-testid="next-button" disabled={!nextPage}>
               <TbChevronRight />
             </PageLink>
           </PageItem>
